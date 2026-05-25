@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-24T13:51:08.417Z",
+  "generatedAt": "2026-05-25T02:13:29.753Z",
   "sourceGeneratedAt": "2026-05-24T13:50:55.962Z",
   "policy": {
     "minStars": 3000,
@@ -455,6 +455,48 @@
         "terminal ux",
         "workflow"
       ],
+      "referenceCount": 3,
+      "references": [
+        {
+          "fullName": "yt-dlp/yt-dlp",
+          "url": "https://github.com/yt-dlp/yt-dlp",
+          "stars": 165235,
+          "pushedAt": "2026-05-22T17:23:04Z",
+          "featureScore": 5,
+          "reasons": [
+            "high-star reference",
+            "matches 'cli'",
+            "matches 'command'",
+            "topic 'cli'"
+          ]
+        },
+        {
+          "fullName": "google-gemini/gemini-cli",
+          "url": "https://github.com/google-gemini/gemini-cli",
+          "stars": 104550,
+          "pushedAt": "2026-05-24T06:56:26Z",
+          "featureScore": 5,
+          "reasons": [
+            "high-star reference",
+            "matches 'cli'",
+            "matches 'terminal'",
+            "topic 'cli'"
+          ]
+        },
+        {
+          "fullName": "junegunn/fzf",
+          "url": "https://github.com/junegunn/fzf",
+          "stars": 80504,
+          "pushedAt": "2026-05-23T16:19:23Z",
+          "featureScore": 5,
+          "reasons": [
+            "high-star reference",
+            "matches 'cli'",
+            "matches 'command'",
+            "topic 'cli'"
+          ]
+        }
+      ],
       "topMatches": [
         {
           "fullName": "yt-dlp/yt-dlp",
@@ -520,6 +562,53 @@
         "test automation",
         "test runner",
         "testing"
+      ],
+      "referenceCount": 3,
+      "references": [
+        {
+          "fullName": "microsoft/playwright",
+          "url": "https://github.com/microsoft/playwright",
+          "stars": 89316,
+          "pushedAt": "2026-05-24T01:19:02Z",
+          "featureScore": 8,
+          "reasons": [
+            "high-star reference",
+            "matches 'api'",
+            "matches 'automation'",
+            "matches 'testing'",
+            "topic 'automation'",
+            "topic 'testing'"
+          ]
+        },
+        {
+          "fullName": "usebruno/bruno",
+          "url": "https://github.com/usebruno/bruno",
+          "stars": 44406,
+          "pushedAt": "2026-05-22T12:06:58Z",
+          "featureScore": 8,
+          "reasons": [
+            "high-star reference",
+            "matches 'api'",
+            "matches 'automation'",
+            "matches 'testing'",
+            "topic 'automation'",
+            "topic 'testing'"
+          ]
+        },
+        {
+          "fullName": "robotframework/robotframework",
+          "url": "https://github.com/robotframework/robotframework",
+          "stars": 11646,
+          "pushedAt": "2026-05-13T08:47:48Z",
+          "featureScore": 7,
+          "reasons": [
+            "high-star reference",
+            "matches 'automation'",
+            "matches 'testing'",
+            "topic 'automation'",
+            "topic 'testing'"
+          ]
+        }
       ],
       "topMatches": [
         {
@@ -589,6 +678,57 @@
         "workflow orchestration",
         "workflow report",
         "workflow runner"
+      ],
+      "referenceCount": 3,
+      "references": [
+        {
+          "fullName": "apache/airflow",
+          "url": "https://github.com/apache/airflow",
+          "stars": 45516,
+          "pushedAt": "2026-05-24T11:04:22Z",
+          "featureScore": 13,
+          "reasons": [
+            "high-star reference",
+            "matches 'automation'",
+            "matches 'orchestration'",
+            "matches 'scheduler'",
+            "matches 'workflow'",
+            "topic 'automation'",
+            "topic 'orchestration'",
+            "topic 'scheduler'",
+            "topic 'workflow'"
+          ]
+        },
+        {
+          "fullName": "PrefectHQ/prefect",
+          "url": "https://github.com/PrefectHQ/prefect",
+          "stars": 22457,
+          "pushedAt": "2026-05-24T08:56:58Z",
+          "featureScore": 10,
+          "reasons": [
+            "high-star reference",
+            "matches 'automation'",
+            "matches 'orchestration'",
+            "matches 'workflow'",
+            "topic 'automation'",
+            "topic 'orchestration'",
+            "topic 'workflow'"
+          ]
+        },
+        {
+          "fullName": "n8n-io/n8n",
+          "url": "https://github.com/n8n-io/n8n",
+          "stars": 189496,
+          "pushedAt": "2026-05-24T13:37:11Z",
+          "featureScore": 7,
+          "reasons": [
+            "high-star reference",
+            "matches 'automation'",
+            "matches 'workflow'",
+            "topic 'automation'",
+            "topic 'workflow'"
+          ]
+        }
       ],
       "topMatches": [
         {
@@ -665,6 +805,46 @@
         "trace",
         "trace failure report"
       ],
+      "referenceCount": 3,
+      "references": [
+        {
+          "fullName": "SigNoz/signoz",
+          "url": "https://github.com/SigNoz/signoz",
+          "stars": 27010,
+          "pushedAt": "2026-05-24T05:19:55Z",
+          "featureScore": 5,
+          "reasons": [
+            "high-star reference",
+            "matches 'observability'",
+            "matches 'trace'",
+            "topic 'observability'"
+          ]
+        },
+        {
+          "fullName": "apache/skywalking",
+          "url": "https://github.com/apache/skywalking",
+          "stars": 24803,
+          "pushedAt": "2026-05-24T13:35:14Z",
+          "featureScore": 4,
+          "reasons": [
+            "high-star reference",
+            "matches 'observability'",
+            "topic 'observability'"
+          ]
+        },
+        {
+          "fullName": "grafana/grafana",
+          "url": "https://github.com/grafana/grafana",
+          "stars": 73971,
+          "pushedAt": "2026-05-24T00:42:29Z",
+          "featureScore": 3,
+          "reasons": [
+            "high-star reference",
+            "matches 'observability'",
+            "matches 'trace'"
+          ]
+        }
+      ],
       "topMatches": [
         {
           "fullName": "SigNoz/signoz",
@@ -731,6 +911,59 @@
         "scorecard",
         "security",
         "static analysis"
+      ],
+      "referenceCount": 4,
+      "references": [
+        {
+          "fullName": "SonarSource/sonarqube",
+          "url": "https://github.com/SonarSource/sonarqube",
+          "stars": 10586,
+          "pushedAt": "2026-05-22T21:31:52Z",
+          "featureScore": 6,
+          "reasons": [
+            "high-star reference",
+            "matches 'quality'",
+            "matches 'static analysis'",
+            "topic 'static-analysis'"
+          ]
+        },
+        {
+          "fullName": "aquasecurity/trivy",
+          "url": "https://github.com/aquasecurity/trivy",
+          "stars": 35153,
+          "pushedAt": "2026-05-22T11:51:15Z",
+          "featureScore": 5,
+          "reasons": [
+            "high-star reference",
+            "matches 'scan'",
+            "matches 'security'",
+            "topic 'security'"
+          ]
+        },
+        {
+          "fullName": "semgrep/semgrep",
+          "url": "https://github.com/semgrep/semgrep",
+          "stars": 15257,
+          "pushedAt": "2026-05-22T19:22:29Z",
+          "featureScore": 5,
+          "reasons": [
+            "high-star reference",
+            "matches 'static analysis'",
+            "topic 'static-analysis'"
+          ]
+        },
+        {
+          "fullName": "ossf/scorecard",
+          "url": "https://github.com/ossf/scorecard",
+          "stars": 5455,
+          "pushedAt": "2026-05-19T15:54:29Z",
+          "featureScore": 4,
+          "reasons": [
+            "matches 'scorecard'",
+            "matches 'security'",
+            "topic 'scorecard'"
+          ]
+        }
       ],
       "topMatches": [
         {
@@ -811,6 +1044,49 @@
         "search performance",
         "star history",
         "stars"
+      ],
+      "referenceCount": 3,
+      "references": [
+        {
+          "fullName": "EvanLi/Github-Ranking",
+          "url": "https://github.com/EvanLi/Github-Ranking",
+          "stars": 11214,
+          "pushedAt": "2026-05-24T04:07:09Z",
+          "featureScore": 9,
+          "reasons": [
+            "high-star reference",
+            "matches 'daily'",
+            "matches 'github'",
+            "matches 'ranking'",
+            "matches 'stars'",
+            "topic 'ranking'",
+            "topic 'stars'"
+          ]
+        },
+        {
+          "fullName": "star-history/star-history",
+          "url": "https://github.com/star-history/star-history",
+          "stars": 9079,
+          "pushedAt": "2026-04-30T07:53:48Z",
+          "featureScore": 6,
+          "reasons": [
+            "matches 'github'",
+            "matches 'history'",
+            "topic 'github'",
+            "topic 'history'"
+          ]
+        },
+        {
+          "fullName": "gayanvoice/top-github-users",
+          "url": "https://github.com/gayanvoice/top-github-users",
+          "stars": 4764,
+          "pushedAt": "2026-05-24T01:34:01Z",
+          "featureScore": 2,
+          "reasons": [
+            "matches 'github'",
+            "matches 'ranking'"
+          ]
+        }
       ],
       "topMatches": [
         {

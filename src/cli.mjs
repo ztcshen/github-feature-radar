@@ -175,7 +175,7 @@ async function lookup(options) {
     try {
       const index = await readJSON(options.indexPath);
       feature = findFeatureInSearchIndex(index, options.featureQuery);
-      matches = feature.topMatches.slice(0, options.limit);
+      matches = (feature.references || feature.topMatches || []).slice(0, options.limit);
     } catch (error) {
       if (error.code !== "ENOENT") throw error;
     }

@@ -312,20 +312,23 @@ export function buildFeatureSearchIndex(inventory, { topMatches = 5 } = {}) {
 
   for (const feature of inventory.features || []) {
     const tokens = [...new Set(tokenCandidates(feature))].sort();
+    const references = (feature.matches || []).map((match) => ({
+      fullName: match.fullName,
+      url: match.url,
+      stars: match.stars,
+      pushedAt: match.pushedAt,
+      featureScore: match.featureScore,
+      reasons: match.reasons,
+    }));
     features[feature.id] = {
       id: feature.id,
       title: feature.title,
       intent: feature.intent,
       aliases: feature.aliases || [],
       tokens,
-      topMatches: (feature.matches || []).slice(0, topMatches).map((match) => ({
-        fullName: match.fullName,
-        url: match.url,
-        stars: match.stars,
-        pushedAt: match.pushedAt,
-        featureScore: match.featureScore,
-        reasons: match.reasons,
-      })),
+      referenceCount: references.length,
+      references,
+      topMatches: references.slice(0, topMatches),
     };
 
     for (const token of tokens) {
@@ -390,7 +393,8 @@ function displayToken(token) {
 }
 
 function featureReferenceCount(feature) {
-  return (feature?.topMatches || []).length;
+  if (Number.isFinite(feature?.referenceCount)) return feature.referenceCount;
+  return (feature?.references || feature?.topMatches || []).length;
 }
 
 function termFeatures(index, token, featureIds) {

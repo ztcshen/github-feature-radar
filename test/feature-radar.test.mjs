@@ -361,6 +361,43 @@ test("feature search index routes performance queries to the radar-generation fe
   assert.equal(findFeatureInSearchIndex(index, "feature search performance").id, "github-radar-generation");
 });
 
+test("feature search index keeps full reference counts beyond top matches", () => {
+  const repositories = Array.from({ length: 6 }, (_, index) => repo({
+    full_name: `quality/gate-${index + 1}`,
+    html_url: `https://github.com/quality/gate-${index + 1}`,
+    description: "Release quality gate policy checks",
+    topics: ["quality", "release", "gate"],
+    stargazers_count: 12000 + index,
+  }));
+  const inventory = buildFeatureInventory({
+    fetchedAt: now,
+    minStars: 3000,
+    months: 3,
+    features: [{
+      id: "quality-gates",
+      title: "Quality Gates",
+      intent: "Find projects that gate releases with policy checks.",
+      searchTerms: ["release gate"],
+      signals: ["gate", "release", "quality"],
+    }],
+    searchResults: [{
+      featureId: "quality-gates",
+      term: "release gate",
+      query: "\"release gate\" stars:>=3000 pushed:>=2026-02-24 archived:false fork:false",
+      repositories,
+    }],
+  });
+  const index = buildFeatureSearchIndex(inventory, { topMatches: 2 });
+
+  assert.equal(index.features["quality-gates"].referenceCount, 6);
+  assert.equal(index.features["quality-gates"].topMatches.length, 2);
+  assert.equal(index.features["quality-gates"].references.length, 6);
+
+  const search = buildFeatureSearchReport(index, { query: "release gate", minReferences: 6 });
+  assert.equal(search.candidates[0].references, 6);
+  assert.equal(search.candidates[0].gate, "passed");
+});
+
 test("feature radar owns searchable terms, suggestions, and ranked feature search", () => {
   const inventory = buildFeatureInventory({
     fetchedAt: now,
