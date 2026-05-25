@@ -1,0 +1,58 @@
+{
+  "features": [
+    {
+      "id": "cli-command-ux",
+      "title": "CLI Command UX",
+      "intent": "Find mature CLIs with clear command trees, discoverable help, plugin-like extension points, and strong terminal ergonomics.",
+      "aliases": ["cli ux", "command tree", "terminal ux"],
+      "searchTerms": ["cli command", "terminal cli"],
+      "signals": ["cli", "command", "terminal", "plugin", "workflow"],
+      "seedRepositories": ["google-gemini/gemini-cli", "yt-dlp/yt-dlp", "junegunn/fzf"]
+    },
+    {
+      "id": "api-test-runner",
+      "title": "API Test Runner",
+      "intent": "Find projects that run API tests, collections, suites, or browser/API automation with reproducible reports.",
+      "aliases": ["case run", "test runner", "api automation"],
+      "searchTerms": ["api testing cli", "test automation"],
+      "signals": ["api", "testing", "automation", "runner", "report", "collection"],
+      "seedRepositories": ["microsoft/playwright", "usebruno/bruno", "robotframework/robotframework"]
+    },
+    {
+      "id": "workflow-orchestration",
+      "title": "Workflow Orchestration",
+      "intent": "Find projects that model, schedule, execute, and report multi-step workflows or automation graphs.",
+      "aliases": ["workflow report", "workflow runner", "orchestration"],
+      "searchTerms": ["workflow automation", "workflow orchestration"],
+      "signals": ["workflow", "automation", "orchestration", "scheduler", "graph", "runner"],
+      "seedRepositories": ["n8n-io/n8n", "apache/airflow", "PrefectHQ/prefect"]
+    },
+    {
+      "id": "evidence-diagnosis",
+      "title": "Evidence Diagnosis",
+      "intent": "Find projects that turn logs, traces, reports, or execution artifacts into failure evidence and root-cause hints.",
+      "aliases": ["root cause", "evidence tasks", "failure diagnosis"],
+      "searchTerms": ["trace failure report", "observability diagnosis"],
+      "signals": ["trace", "observability", "report", "failure", "diagnosis", "root cause", "evidence"],
+      "seedRepositories": ["grafana/grafana", "SigNoz/signoz", "apache/skywalking"]
+    },
+    {
+      "id": "quality-gates",
+      "title": "Quality Gates",
+      "intent": "Find projects that gate releases or CI runs with quality reports, coverage, policy checks, and actionable summaries.",
+      "aliases": ["quality report", "quality gate", "release gate"],
+      "searchTerms": ["quality gate", "ci quality report"],
+      "signals": ["quality", "gate", "ci", "coverage", "report", "policy", "scorecard", "security", "static analysis", "scan"],
+      "seedRepositories": ["sonarsource/sonarqube", "ossf/scorecard", "aquasecurity/trivy", "semgrep/semgrep"]
+    },
+    {
+      "id": "github-radar-generation",
+      "title": "GitHub Radar Generation",
+      "intent": "Find projects that continuously generate GitHub rankings, star histories, or static indexes from GitHub metadata.",
+      "aliases": ["project radar", "github ranking", "star history", "feature search"],
+      "searchTerms": ["github ranking", "star history", "feature search performance"],
+      "signals": ["github", "ranking", "stars", "history", "daily", "index", "feature search", "search performance", "metadata index"],
+      "seedRepositories": ["EvanLi/Github-Ranking", "star-history/star-history", "gayanvoice/top-github-users"]
+    }
+  ]
+}

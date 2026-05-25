@@ -1,0 +1,27 @@
+{
+  "name": "github-feature-radar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Feature-first GitHub reference radar for CLI capability research.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "github-feature-radar": "src/cli.mjs"
+  },
+  "scripts": {
+    "refresh": "node src/cli.mjs refresh",
+    "lookup": "node src/cli.mjs lookup",
+    "features": "node src/cli.mjs features",
+    "terms": "node src/cli.mjs terms",
+    "suggest": "node src/cli.mjs suggest",
+    "search": "node src/cli.mjs search",
+    "audit": "node src/cli.mjs audit",
+    "coverage": "node src/cli.mjs coverage",
+    "status": "node src/cli.mjs status",
+    "index": "node src/cli.mjs index",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
