@@ -1,0 +1,1521 @@
+{
+  "schemaVersion": 1,
+  "fetchedAt": "2026-05-24T13:50:55.962Z",
+  "policy": {
+    "minStars": 3000,
+    "months": 3,
+    "pushedAfter": "2026-02-24",
+    "qualifiers": [
+      "stars >= 3000",
+      "pushed_at >= 2026-02-24",
+      "archived == false",
+      "fork == false"
+    ]
+  },
+  "features": [
+    {
+      "id": "cli-command-ux",
+      "title": "CLI Command UX",
+      "intent": "Find mature CLIs with clear command trees, discoverable help, plugin-like extension points, and strong terminal ergonomics.",
+      "aliases": [
+        "cli ux",
+        "command tree",
+        "terminal ux"
+      ],
+      "searchTerms": [
+        "cli command",
+        "terminal cli"
+      ],
+      "signals": [
+        "cli",
+        "command",
+        "terminal",
+        "plugin",
+        "workflow"
+      ],
+      "matches": [
+        {
+          "fullName": "yt-dlp/yt-dlp",
+          "name": "yt-dlp",
+          "owner": "yt-dlp",
+          "url": "https://github.com/yt-dlp/yt-dlp",
+          "description": "A feature-rich command-line audio/video downloader",
+          "stars": 165235,
+          "forks": 13878,
+          "openIssues": 2524,
+          "language": "Python",
+          "topics": [
+            "cli",
+            "downloader",
+            "python",
+            "sponsorblock",
+            "youtube-dl",
+            "youtube-downloader",
+            "yt-dlp"
+          ],
+          "license": "Unlicense",
+          "pushedAt": "2026-05-22T17:23:04Z",
+          "updatedAt": "2026-05-24T13:45:18Z",
+          "featureScore": 5,
+          "matchedTerms": [
+            "seed:yt-dlp/yt-dlp"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'cli'",
+            "matches 'command'",
+            "topic 'cli'"
+          ],
+          "sourceQueries": [
+            "seed repository yt-dlp/yt-dlp"
+          ]
+        },
+        {
+          "fullName": "google-gemini/gemini-cli",
+          "name": "gemini-cli",
+          "owner": "google-gemini",
+          "url": "https://github.com/google-gemini/gemini-cli",
+          "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+          "stars": 104550,
+          "forks": 13826,
+          "openIssues": 1527,
+          "language": "TypeScript",
+          "topics": [
+            "ai",
+            "ai-agents",
+            "cli",
+            "gemini",
+            "gemini-api",
+            "mcp-client",
+            "mcp-server"
+          ],
+          "license": "Apache-2.0",
+          "pushedAt": "2026-05-24T06:56:26Z",
+          "updatedAt": "2026-05-24T13:42:30Z",
+          "featureScore": 5,
+          "matchedTerms": [
+            "seed:google-gemini/gemini-cli"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'cli'",
+            "matches 'terminal'",
+            "topic 'cli'"
+          ],
+          "sourceQueries": [
+            "seed repository google-gemini/gemini-cli"
+          ]
+        },
+        {
+          "fullName": "junegunn/fzf",
+          "name": "fzf",
+          "owner": "junegunn",
+          "url": "https://github.com/junegunn/fzf",
+          "description": ":cherry_blossom: A command-line fuzzy finder",
+          "stars": 80504,
+          "forks": 2803,
+          "openIssues": 312,
+          "language": "Go",
+          "topics": [
+            "bash",
+            "cli",
+            "fish",
+            "fzf",
+            "go",
+            "neovim",
+            "tmux",
+            "unix",
+            "vim",
+            "zsh"
+          ],
+          "license": "MIT",
+          "pushedAt": "2026-05-23T16:19:23Z",
+          "updatedAt": "2026-05-24T13:10:33Z",
+          "featureScore": 5,
+          "matchedTerms": [
+            "seed:junegunn/fzf"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'cli'",
+            "matches 'command'",
+            "topic 'cli'"
+          ],
+          "sourceQueries": [
+            "seed repository junegunn/fzf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "api-test-runner",
+      "title": "API Test Runner",
+      "intent": "Find projects that run API tests, collections, suites, or browser/API automation with reproducible reports.",
+      "aliases": [
+        "case run",
+        "test runner",
+        "api automation"
+      ],
+      "searchTerms": [
+        "api testing cli",
+        "test automation"
+      ],
+      "signals": [
+        "api",
+        "testing",
+        "automation",
+        "runner",
+        "report",
+        "collection"
+      ],
+      "matches": [
+        {
+          "fullName": "microsoft/playwright",
+          "name": "playwright",
+          "owner": "microsoft",
+          "url": "https://github.com/microsoft/playwright",
+          "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+          "stars": 89316,
+          "forks": 5757,
+          "openIssues": 169,
+          "language": "TypeScript",
+          "topics": [
+            "automation",
+            "chrome",
+            "chromium",
+            "e2e-testing",
+            "electron",
+            "end-to-end-testing",
+            "firefox",
+            "javascript",
+            "playwright",
+            "test",
+            "test-automation",
+            "testing",
+            "testing-tools",
+            "web",
+            "webkit"
+          ],
+          "license": "Apache-2.0",
+          "pushedAt": "2026-05-24T01:19:02Z",
+          "updatedAt": "2026-05-24T13:50:41Z",
+          "featureScore": 8,
+          "matchedTerms": [
+            "seed:microsoft/playwright"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'api'",
+            "matches 'automation'",
+            "matches 'testing'",
+            "topic 'automation'",
+            "topic 'testing'"
+          ],
+          "sourceQueries": [
+            "seed repository microsoft/playwright"
+          ]
+        },
+        {
+          "fullName": "usebruno/bruno",
+          "name": "bruno",
+          "owner": "usebruno",
+          "url": "https://github.com/usebruno/bruno",
+          "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+          "stars": 44406,
+          "forks": 2502,
+          "openIssues": 1652,
+          "language": "JavaScript",
+          "topics": [
+            "api-client",
+            "api-testing",
+            "automation",
+            "developer-tools",
+            "git",
+            "graphql-client",
+            "http-client",
+            "javascript",
+            "openapi",
+            "openapi3",
+            "opensource",
+            "rest-api",
+            "testing",
+            "testing-tools"
+          ],
+          "license": "MIT",
+          "pushedAt": "2026-05-22T12:06:58Z",
+          "updatedAt": "2026-05-24T12:55:08Z",
+          "featureScore": 8,
+          "matchedTerms": [
+            "seed:usebruno/bruno"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'api'",
+            "matches 'automation'",
+            "matches 'testing'",
+            "topic 'automation'",
+            "topic 'testing'"
+          ],
+          "sourceQueries": [
+            "seed repository usebruno/bruno"
+          ]
+        },
+        {
+          "fullName": "robotframework/robotframework",
+          "name": "robotframework",
+          "owner": "robotframework",
+          "url": "https://github.com/robotframework/robotframework",
+          "description": "Generic automation framework for acceptance testing and RPA",
+          "stars": 11646,
+          "forks": 2546,
+          "openIssues": 292,
+          "language": "Python",
+          "topics": [
+            "attd",
+            "automation",
+            "bdd",
+            "python",
+            "robotframework",
+            "rpa",
+            "testautomation",
+            "testing"
+          ],
+          "license": "Apache-2.0",
+          "pushedAt": "2026-05-13T08:47:48Z",
+          "updatedAt": "2026-05-24T00:26:47Z",
+          "featureScore": 7,
+          "matchedTerms": [
+            "seed:robotframework/robotframework"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'automation'",
+            "matches 'testing'",
+            "topic 'automation'",
+            "topic 'testing'"
+          ],
+          "sourceQueries": [
+            "seed repository robotframework/robotframework"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "workflow-orchestration",
+      "title": "Workflow Orchestration",
+      "intent": "Find projects that model, schedule, execute, and report multi-step workflows or automation graphs.",
+      "aliases": [
+        "workflow report",
+        "workflow runner",
+        "orchestration"
+      ],
+      "searchTerms": [
+        "workflow automation",
+        "workflow orchestration"
+      ],
+      "signals": [
+        "workflow",
+        "automation",
+        "orchestration",
+        "scheduler",
+        "graph",
+        "runner"
+      ],
+      "matches": [
+        {
+          "fullName": "apache/airflow",
+          "name": "airflow",
+          "owner": "apache",
+          "url": "https://github.com/apache/airflow",
+          "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+          "stars": 45516,
+          "forks": 17109,
+          "openIssues": 1753,
+          "language": "Python",
+          "topics": [
+            "airflow",
+            "apache",
+            "apache-airflow",
+            "automation",
+            "dag",
+            "data-engineering",
+            "data-integration",
+            "data-orchestrator",
+            "data-pipelines",
+            "data-science",
+            "elt",
+            "etl",
+            "machine-learning",
+            "mlops",
+            "orchestration",
+            "python",
+            "scheduler",
+            "workflow",
+            "workflow-engine",
+            "workflow-orchestration"
+          ],
+          "license": "Apache-2.0",
+          "pushedAt": "2026-05-24T11:04:22Z",
+          "updatedAt": "2026-05-24T13:12:40Z",
+          "featureScore": 13,
+          "matchedTerms": [
+            "seed:apache/airflow"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'automation'",
+            "matches 'orchestration'",
+            "matches 'scheduler'",
+            "matches 'workflow'",
+            "topic 'automation'",
+            "topic 'orchestration'",
+            "topic 'scheduler'",
+            "topic 'workflow'"
+          ],
+          "sourceQueries": [
+            "seed repository apache/airflow"
+          ]
+        },
+        {
+          "fullName": "PrefectHQ/prefect",
+          "name": "prefect",
+          "owner": "PrefectHQ",
+          "url": "https://github.com/PrefectHQ/prefect",
+          "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+          "stars": 22457,
+          "forks": 2315,
+          "openIssues": 812,
+          "language": "Python",
+          "topics": [
+            "automation",
+            "data",
+            "data-engineering",
+            "data-ops",
+            "data-science",
+            "infrastructure",
+            "ml-ops",
+            "observability",
+            "orchestration",
+            "pipeline",
+            "prefect",
+            "python",
+            "workflow",
+            "workflow-engine"
+          ],
+          "license": "Apache-2.0",
+          "pushedAt": "2026-05-24T08:56:58Z",
+          "updatedAt": "2026-05-24T13:37:19Z",
+          "featureScore": 10,
+          "matchedTerms": [
+            "seed:PrefectHQ/prefect"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'automation'",
+            "matches 'orchestration'",
+            "matches 'workflow'",
+            "topic 'automation'",
+            "topic 'orchestration'",
+            "topic 'workflow'"
+          ],
+          "sourceQueries": [
+            "seed repository PrefectHQ/prefect"
+          ]
+        },
+        {
+          "fullName": "n8n-io/n8n",
+          "name": "n8n",
+          "owner": "n8n-io",
+          "url": "https://github.com/n8n-io/n8n",
+          "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+          "stars": 189496,
+          "forks": 57962,
+          "openIssues": 1479,
+          "language": "TypeScript",
+          "topics": [
+            "ai",
+            "apis",
+            "automation",
+            "cli",
+            "data-flow",
+            "development",
+            "integration-framework",
+            "integrations",
+            "ipaas",
+            "low-code",
+            "low-code-platform",
+            "mcp",
+            "mcp-client",
+            "mcp-server",
+            "n8n",
+            "no-code",
+            "self-hosted",
+            "typescript",
+            "workflow",
+            "workflow-automation"
+          ],
+          "license": "NOASSERTION",
+          "pushedAt": "2026-05-24T13:37:11Z",
+          "updatedAt": "2026-05-24T13:35:22Z",
+          "featureScore": 7,
+          "matchedTerms": [
+            "seed:n8n-io/n8n"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'automation'",
+            "matches 'workflow'",
+            "topic 'automation'",
+            "topic 'workflow'"
+          ],
+          "sourceQueries": [
+            "seed repository n8n-io/n8n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidence-diagnosis",
+      "title": "Evidence Diagnosis",
+      "intent": "Find projects that turn logs, traces, reports, or execution artifacts into failure evidence and root-cause hints.",
+      "aliases": [
+        "root cause",
+        "evidence tasks",
+        "failure diagnosis"
+      ],
+      "searchTerms": [
+        "trace failure report",
+        "observability diagnosis"
+      ],
+      "signals": [
+        "trace",
+        "observability",
+        "report",
+        "failure",
+        "diagnosis",
+        "root cause",
+        "evidence"
+      ],
+      "matches": [
+        {
+          "fullName": "SigNoz/signoz",
+          "name": "signoz",
+          "owner": "SigNoz",
+          "url": "https://github.com/SigNoz/signoz",
+          "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. . Open source Application Performance Monitoring (APM) & Observability tool",
+          "stars": 27010,
+          "forks": 2182,
+          "openIssues": 1500,
+          "language": "TypeScript",
+          "topics": [
+            "apm",
+            "application-monitoring",
+            "distributed-tracing",
+            "go",
+            "good-first-issue",
+            "jaeger",
+            "log",
+            "logs",
+            "metrics",
+            "monitoring",
+            "nextjs",
+            "observability",
+            "open-source",
+            "opentelemetry",
+            "prometheus",
+            "react",
+            "reactjs",
+            "self-hosted",
+            "tracing",
+            "typescript"
+          ],
+          "license": "NOASSERTION",
+          "pushedAt": "2026-05-24T05:19:55Z",
+          "updatedAt": "2026-05-24T13:43:40Z",
+          "featureScore": 5,
+          "matchedTerms": [
+            "seed:SigNoz/signoz"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'observability'",
+            "matches 'trace'",
+            "topic 'observability'"
+          ],
+          "sourceQueries": [
+            "seed repository SigNoz/signoz"
+          ]
+        },
+        {
+          "fullName": "apache/skywalking",
+          "name": "skywalking",
+          "owner": "apache",
+          "url": "https://github.com/apache/skywalking",
+          "description": "APM, Application Performance Monitoring System",
+          "stars": 24803,
+          "forks": 6644,
+          "openIssues": 33,
+          "language": "Java",
+          "topics": [
+            "apm",
+            "dapper",
+            "distributed-tracing",
+            "ebpf",
+            "logging",
+            "metrics",
+            "observability",
+            "open-telemetry",
+            "prometheus",
+            "service-mesh",
+            "skywalking",
+            "telegraf",
+            "web-performance",
+            "zabbix"
+          ],
+          "license": "Apache-2.0",
+          "pushedAt": "2026-05-24T13:35:14Z",
+          "updatedAt": "2026-05-24T03:48:52Z",
+          "featureScore": 4,
+          "matchedTerms": [
+            "seed:apache/skywalking"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'observability'",
+            "topic 'observability'"
+          ],
+          "sourceQueries": [
+            "seed repository apache/skywalking"
+          ]
+        },
+        {
+          "fullName": "grafana/grafana",
+          "name": "grafana",
+          "owner": "grafana",
+          "url": "https://github.com/grafana/grafana",
+          "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
+          "stars": 73971,
+          "forks": 13945,
+          "openIssues": 3621,
+          "language": "TypeScript",
+          "topics": [
+            "alerting",
+            "analytics",
+            "business-intelligence",
+            "dashboard",
+            "data-visualization",
+            "elasticsearch",
+            "go",
+            "grafana",
+            "hacktoberfest",
+            "influxdb",
+            "metrics",
+            "monitoring",
+            "mysql",
+            "postgres",
+            "prometheus"
+          ],
+          "license": "AGPL-3.0",
+          "pushedAt": "2026-05-24T00:42:29Z",
+          "updatedAt": "2026-05-24T13:17:42Z",
+          "featureScore": 3,
+          "matchedTerms": [
+            "seed:grafana/grafana"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'observability'",
+            "matches 'trace'"
+          ],
+          "sourceQueries": [
+            "seed repository grafana/grafana"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality-gates",
+      "title": "Quality Gates",
+      "intent": "Find projects that gate releases or CI runs with quality reports, coverage, policy checks, and actionable summaries.",
+      "aliases": [
+        "quality report",
+        "quality gate",
+        "release gate"
+      ],
+      "searchTerms": [
+        "quality gate",
+        "ci quality report"
+      ],
+      "signals": [
+        "quality",
+        "gate",
+        "ci",
+        "coverage",
+        "report",
+        "policy",
+        "scorecard",
+        "security",
+        "static analysis",
+        "scan"
+      ],
+      "matches": [
+        {
+          "fullName": "SonarSource/sonarqube",
+          "name": "sonarqube",
+          "owner": "SonarSource",
+          "url": "https://github.com/SonarSource/sonarqube",
+          "description": "Continuous Inspection",
+          "stars": 10586,
+          "forks": 2181,
+          "openIssues": 6,
+          "language": "Java",
+          "topics": [
+            "code-quality",
+            "sonarqube",
+            "static-analysis"
+          ],
+          "license": "LGPL-3.0",
+          "pushedAt": "2026-05-22T21:31:52Z",
+          "updatedAt": "2026-05-23T23:42:40Z",
+          "featureScore": 6,
+          "matchedTerms": [
+            "seed:sonarsource/sonarqube"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'quality'",
+            "matches 'static analysis'",
+            "topic 'static-analysis'"
+          ],
+          "sourceQueries": [
+            "seed repository sonarsource/sonarqube"
+          ]
+        },
+        {
+          "fullName": "aquasecurity/trivy",
+          "name": "trivy",
+          "owner": "aquasecurity",
+          "url": "https://github.com/aquasecurity/trivy",
+          "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+          "stars": 35153,
+          "forks": 394,
+          "openIssues": 246,
+          "language": "Go",
+          "topics": [
+            "containers",
+            "devsecops",
+            "docker",
+            "go",
+            "golang",
+            "hacktoberfest",
+            "iac",
+            "infrastructure-as-code",
+            "kubernetes",
+            "misconfiguration",
+            "security",
+            "security-tools",
+            "vulnerability",
+            "vulnerability-detection",
+            "vulnerability-scanners"
+          ],
+          "license": "Apache-2.0",
+          "pushedAt": "2026-05-22T11:51:15Z",
+          "updatedAt": "2026-05-24T13:47:58Z",
+          "featureScore": 5,
+          "matchedTerms": [
+            "seed:aquasecurity/trivy"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'scan'",
+            "matches 'security'",
+            "topic 'security'"
+          ],
+          "sourceQueries": [
+            "seed repository aquasecurity/trivy"
+          ]
+        },
+        {
+          "fullName": "semgrep/semgrep",
+          "name": "semgrep",
+          "owner": "semgrep",
+          "url": "https://github.com/semgrep/semgrep",
+          "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+          "stars": 15257,
+          "forks": 942,
+          "openIssues": 873,
+          "language": "OCaml",
+          "topics": [
+            "c",
+            "go",
+            "java",
+            "javascript",
+            "python",
+            "r2c",
+            "ruby",
+            "sast",
+            "semgrep",
+            "static-analysis",
+            "static-code-analysis",
+            "typescript"
+          ],
+          "license": "LGPL-2.1",
+          "pushedAt": "2026-05-22T19:22:29Z",
+          "updatedAt": "2026-05-24T13:47:47Z",
+          "featureScore": 5,
+          "matchedTerms": [
+            "seed:semgrep/semgrep"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'static analysis'",
+            "topic 'static-analysis'"
+          ],
+          "sourceQueries": [
+            "seed repository semgrep/semgrep"
+          ]
+        },
+        {
+          "fullName": "ossf/scorecard",
+          "name": "scorecard",
+          "owner": "ossf",
+          "url": "https://github.com/ossf/scorecard",
+          "description": "OpenSSF Scorecard - Security health metrics for Open Source",
+          "stars": 5455,
+          "forks": 651,
+          "openIssues": 405,
+          "language": "Go",
+          "topics": [
+            "openssf-scorecard",
+            "scorecard"
+          ],
+          "license": "Apache-2.0",
+          "pushedAt": "2026-05-19T15:54:29Z",
+          "updatedAt": "2026-05-22T05:37:10Z",
+          "featureScore": 4,
+          "matchedTerms": [
+            "seed:ossf/scorecard"
+          ],
+          "reasons": [
+            "matches 'scorecard'",
+            "matches 'security'",
+            "topic 'scorecard'"
+          ],
+          "sourceQueries": [
+            "seed repository ossf/scorecard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "github-radar-generation",
+      "title": "GitHub Radar Generation",
+      "intent": "Find projects that continuously generate GitHub rankings, star histories, or static indexes from GitHub metadata.",
+      "aliases": [
+        "project radar",
+        "github ranking",
+        "star history",
+        "feature search"
+      ],
+      "searchTerms": [
+        "github ranking",
+        "star history",
+        "feature search performance"
+      ],
+      "signals": [
+        "github",
+        "ranking",
+        "stars",
+        "history",
+        "daily",
+        "index",
+        "feature search",
+        "search performance",
+        "metadata index"
+      ],
+      "matches": [
+        {
+          "fullName": "EvanLi/Github-Ranking",
+          "name": "Github-Ranking",
+          "owner": "EvanLi",
+          "url": "https://github.com/EvanLi/Github-Ranking",
+          "description": ":star:Github Ranking:star: Github stars and forks ranking list. Github Top100 stars list of different languages. Automatically update daily. | Github",
+          "stars": 11214,
+          "forks": 659,
+          "openIssues": 30,
+          "language": "Python",
+          "topics": [
+            "forks",
+            "github-rank",
+            "github-stars",
+            "python",
+            "ranking",
+            "stars"
+          ],
+          "license": "MIT",
+          "pushedAt": "2026-05-24T04:07:09Z",
+          "updatedAt": "2026-05-24T13:41:29Z",
+          "featureScore": 9,
+          "matchedTerms": [
+            "seed:EvanLi/Github-Ranking"
+          ],
+          "reasons": [
+            "high-star reference",
+            "matches 'daily'",
+            "matches 'github'",
+            "matches 'ranking'",
+            "matches 'stars'",
+            "topic 'ranking'",
+            "topic 'stars'"
+          ],
+          "sourceQueries": [
+            "seed repository EvanLi/Github-Ranking"
+          ]
+        },
+        {
+          "fullName": "star-history/star-history",
+          "name": "star-history",
+          "owner": "star-history",
+          "url": "https://github.com/star-history/star-history",
+          "description": "The de facto GitHub star history graph.",
+          "stars": 9079,
+          "forks": 340,
+          "openIssues": 8,
+          "language": "TypeScript",
+          "topics": [
+            "github",
+            "github-star",
+            "github-star-history",
+            "github-trending",
+            "graph",
+            "history",
+            "star",
+            "star-history"
+          ],
+          "license": "MIT",
+          "pushedAt": "2026-04-30T07:53:48Z",
+          "updatedAt": "2026-05-23T21:27:59Z",
+          "featureScore": 6,
+          "matchedTerms": [
+            "seed:star-history/star-history"
+          ],
+          "reasons": [
+            "matches 'github'",
+            "matches 'history'",
+            "topic 'github'",
+            "topic 'history'"
+          ],
+          "sourceQueries": [
+            "seed repository star-history/star-history"
+          ]
+        },
+        {
+          "fullName": "gayanvoice/top-github-users",
+          "name": "top-github-users",
+          "owner": "gayanvoice",
+          "url": "https://github.com/gayanvoice/top-github-users",
+          "description": "Check your ranking in GitHub! Don't forget to star this repository.",
+          "stars": 4764,
+          "forks": 664,
+          "openIssues": 14,
+          "language": "",
+          "topics": [],
+          "license": "",
+          "pushedAt": "2026-05-24T01:34:01Z",
+          "updatedAt": "2026-05-24T01:34:05Z",
+          "featureScore": 2,
+          "matchedTerms": [
+            "seed:gayanvoice/top-github-users"
+          ],
+          "reasons": [
+            "matches 'github'",
+            "matches 'ranking'"
+          ],
+          "sourceQueries": [
+            "seed repository gayanvoice/top-github-users"
+          ]
+        }
+      ]
+    }
+  ],
+  "rejected": [],
+  "projectLedger": {
+    "google-gemini/gemini-cli": {
+      "fullName": "google-gemini/gemini-cli",
+      "name": "gemini-cli",
+      "owner": "google-gemini",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "stars": 104550,
+      "forks": 13826,
+      "openIssues": 1527,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini",
+        "gemini-api",
+        "mcp-client",
+        "mcp-server"
+      ],
+      "license": "Apache-2.0",
+      "pushedAt": "2026-05-24T06:56:26Z",
+      "updatedAt": "2026-05-24T13:42:30Z",
+      "matchedFeatures": [
+        "cli-command-ux"
+      ]
+    },
+    "yt-dlp/yt-dlp": {
+      "fullName": "yt-dlp/yt-dlp",
+      "name": "yt-dlp",
+      "owner": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "stars": 165235,
+      "forks": 13878,
+      "openIssues": 2524,
+      "language": "Python",
+      "topics": [
+        "cli",
+        "downloader",
+        "python",
+        "sponsorblock",
+        "youtube-dl",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "license": "Unlicense",
+      "pushedAt": "2026-05-22T17:23:04Z",
+      "updatedAt": "2026-05-24T13:45:18Z",
+      "matchedFeatures": [
+        "cli-command-ux"
+      ]
+    },
+    "junegunn/fzf": {
+      "fullName": "junegunn/fzf",
+      "name": "fzf",
+      "owner": "junegunn",
+      "url": "https://github.com/junegunn/fzf",
+      "description": ":cherry_blossom: A command-line fuzzy finder",
+      "stars": 80504,
+      "forks": 2803,
+      "openIssues": 312,
+      "language": "Go",
+      "topics": [
+        "bash",
+        "cli",
+        "fish",
+        "fzf",
+        "go",
+        "neovim",
+        "tmux",
+        "unix",
+        "vim",
+        "zsh"
+      ],
+      "license": "MIT",
+      "pushedAt": "2026-05-23T16:19:23Z",
+      "updatedAt": "2026-05-24T13:10:33Z",
+      "matchedFeatures": [
+        "cli-command-ux"
+      ]
+    },
+    "microsoft/playwright": {
+      "fullName": "microsoft/playwright",
+      "name": "playwright",
+      "owner": "microsoft",
+      "url": "https://github.com/microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "stars": 89316,
+      "forks": 5757,
+      "openIssues": 169,
+      "language": "TypeScript",
+      "topics": [
+        "automation",
+        "chrome",
+        "chromium",
+        "e2e-testing",
+        "electron",
+        "end-to-end-testing",
+        "firefox",
+        "javascript",
+        "playwright",
+        "test",
+        "test-automation",
+        "testing",
+        "testing-tools",
+        "web",
+        "webkit"
+      ],
+      "license": "Apache-2.0",
+      "pushedAt": "2026-05-24T01:19:02Z",
+      "updatedAt": "2026-05-24T13:50:41Z",
+      "matchedFeatures": [
+        "api-test-runner"
+      ]
+    },
+    "usebruno/bruno": {
+      "fullName": "usebruno/bruno",
+      "name": "bruno",
+      "owner": "usebruno",
+      "url": "https://github.com/usebruno/bruno",
+      "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "stars": 44406,
+      "forks": 2502,
+      "openIssues": 1652,
+      "language": "JavaScript",
+      "topics": [
+        "api-client",
+        "api-testing",
+        "automation",
+        "developer-tools",
+        "git",
+        "graphql-client",
+        "http-client",
+        "javascript",
+        "openapi",
+        "openapi3",
+        "opensource",
+        "rest-api",
+        "testing",
+        "testing-tools"
+      ],
+      "license": "MIT",
+      "pushedAt": "2026-05-22T12:06:58Z",
+      "updatedAt": "2026-05-24T12:55:08Z",
+      "matchedFeatures": [
+        "api-test-runner"
+      ]
+    },
+    "robotframework/robotframework": {
+      "fullName": "robotframework/robotframework",
+      "name": "robotframework",
+      "owner": "robotframework",
+      "url": "https://github.com/robotframework/robotframework",
+      "description": "Generic automation framework for acceptance testing and RPA",
+      "stars": 11646,
+      "forks": 2546,
+      "openIssues": 292,
+      "language": "Python",
+      "topics": [
+        "attd",
+        "automation",
+        "bdd",
+        "python",
+        "robotframework",
+        "rpa",
+        "testautomation",
+        "testing"
+      ],
+      "license": "Apache-2.0",
+      "pushedAt": "2026-05-13T08:47:48Z",
+      "updatedAt": "2026-05-24T00:26:47Z",
+      "matchedFeatures": [
+        "api-test-runner"
+      ]
+    },
+    "n8n-io/n8n": {
+      "fullName": "n8n-io/n8n",
+      "name": "n8n",
+      "owner": "n8n-io",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stars": 189496,
+      "forks": 57962,
+      "openIssues": 1479,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "license": "NOASSERTION",
+      "pushedAt": "2026-05-24T13:37:11Z",
+      "updatedAt": "2026-05-24T13:35:22Z",
+      "matchedFeatures": [
+        "workflow-orchestration"
+      ]
+    },
+    "apache/airflow": {
+      "fullName": "apache/airflow",
+      "name": "airflow",
+      "owner": "apache",
+      "url": "https://github.com/apache/airflow",
+      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+      "stars": 45516,
+      "forks": 17109,
+      "openIssues": 1753,
+      "language": "Python",
+      "topics": [
+        "airflow",
+        "apache",
+        "apache-airflow",
+        "automation",
+        "dag",
+        "data-engineering",
+        "data-integration",
+        "data-orchestrator",
+        "data-pipelines",
+        "data-science",
+        "elt",
+        "etl",
+        "machine-learning",
+        "mlops",
+        "orchestration",
+        "python",
+        "scheduler",
+        "workflow",
+        "workflow-engine",
+        "workflow-orchestration"
+      ],
+      "license": "Apache-2.0",
+      "pushedAt": "2026-05-24T11:04:22Z",
+      "updatedAt": "2026-05-24T13:12:40Z",
+      "matchedFeatures": [
+        "workflow-orchestration"
+      ]
+    },
+    "PrefectHQ/prefect": {
+      "fullName": "PrefectHQ/prefect",
+      "name": "prefect",
+      "owner": "PrefectHQ",
+      "url": "https://github.com/PrefectHQ/prefect",
+      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+      "stars": 22457,
+      "forks": 2315,
+      "openIssues": 812,
+      "language": "Python",
+      "topics": [
+        "automation",
+        "data",
+        "data-engineering",
+        "data-ops",
+        "data-science",
+        "infrastructure",
+        "ml-ops",
+        "observability",
+        "orchestration",
+        "pipeline",
+        "prefect",
+        "python",
+        "workflow",
+        "workflow-engine"
+      ],
+      "license": "Apache-2.0",
+      "pushedAt": "2026-05-24T08:56:58Z",
+      "updatedAt": "2026-05-24T13:37:19Z",
+      "matchedFeatures": [
+        "workflow-orchestration"
+      ]
+    },
+    "grafana/grafana": {
+      "fullName": "grafana/grafana",
+      "name": "grafana",
+      "owner": "grafana",
+      "url": "https://github.com/grafana/grafana",
+      "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
+      "stars": 73971,
+      "forks": 13945,
+      "openIssues": 3621,
+      "language": "TypeScript",
+      "topics": [
+        "alerting",
+        "analytics",
+        "business-intelligence",
+        "dashboard",
+        "data-visualization",
+        "elasticsearch",
+        "go",
+        "grafana",
+        "hacktoberfest",
+        "influxdb",
+        "metrics",
+        "monitoring",
+        "mysql",
+        "postgres",
+        "prometheus"
+      ],
+      "license": "AGPL-3.0",
+      "pushedAt": "2026-05-24T00:42:29Z",
+      "updatedAt": "2026-05-24T13:17:42Z",
+      "matchedFeatures": [
+        "evidence-diagnosis"
+      ]
+    },
+    "SigNoz/signoz": {
+      "fullName": "SigNoz/signoz",
+      "name": "signoz",
+      "owner": "SigNoz",
+      "url": "https://github.com/SigNoz/signoz",
+      "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. . Open source Application Performance Monitoring (APM) & Observability tool",
+      "stars": 27010,
+      "forks": 2182,
+      "openIssues": 1500,
+      "language": "TypeScript",
+      "topics": [
+        "apm",
+        "application-monitoring",
+        "distributed-tracing",
+        "go",
+        "good-first-issue",
+        "jaeger",
+        "log",
+        "logs",
+        "metrics",
+        "monitoring",
+        "nextjs",
+        "observability",
+        "open-source",
+        "opentelemetry",
+        "prometheus",
+        "react",
+        "reactjs",
+        "self-hosted",
+        "tracing",
+        "typescript"
+      ],
+      "license": "NOASSERTION",
+      "pushedAt": "2026-05-24T05:19:55Z",
+      "updatedAt": "2026-05-24T13:43:40Z",
+      "matchedFeatures": [
+        "evidence-diagnosis"
+      ]
+    },
+    "apache/skywalking": {
+      "fullName": "apache/skywalking",
+      "name": "skywalking",
+      "owner": "apache",
+      "url": "https://github.com/apache/skywalking",
+      "description": "APM, Application Performance Monitoring System",
+      "stars": 24803,
+      "forks": 6644,
+      "openIssues": 33,
+      "language": "Java",
+      "topics": [
+        "apm",
+        "dapper",
+        "distributed-tracing",
+        "ebpf",
+        "logging",
+        "metrics",
+        "observability",
+        "open-telemetry",
+        "prometheus",
+        "service-mesh",
+        "skywalking",
+        "telegraf",
+        "web-performance",
+        "zabbix"
+      ],
+      "license": "Apache-2.0",
+      "pushedAt": "2026-05-24T13:35:14Z",
+      "updatedAt": "2026-05-24T03:48:52Z",
+      "matchedFeatures": [
+        "evidence-diagnosis"
+      ]
+    },
+    "SonarSource/sonarqube": {
+      "fullName": "SonarSource/sonarqube",
+      "name": "sonarqube",
+      "owner": "SonarSource",
+      "url": "https://github.com/SonarSource/sonarqube",
+      "description": "Continuous Inspection",
+      "stars": 10586,
+      "forks": 2181,
+      "openIssues": 6,
+      "language": "Java",
+      "topics": [
+        "code-quality",
+        "sonarqube",
+        "static-analysis"
+      ],
+      "license": "LGPL-3.0",
+      "pushedAt": "2026-05-22T21:31:52Z",
+      "updatedAt": "2026-05-23T23:42:40Z",
+      "matchedFeatures": [
+        "quality-gates"
+      ]
+    },
+    "ossf/scorecard": {
+      "fullName": "ossf/scorecard",
+      "name": "scorecard",
+      "owner": "ossf",
+      "url": "https://github.com/ossf/scorecard",
+      "description": "OpenSSF Scorecard - Security health metrics for Open Source",
+      "stars": 5455,
+      "forks": 651,
+      "openIssues": 405,
+      "language": "Go",
+      "topics": [
+        "openssf-scorecard",
+        "scorecard"
+      ],
+      "license": "Apache-2.0",
+      "pushedAt": "2026-05-19T15:54:29Z",
+      "updatedAt": "2026-05-22T05:37:10Z",
+      "matchedFeatures": [
+        "quality-gates"
+      ]
+    },
+    "aquasecurity/trivy": {
+      "fullName": "aquasecurity/trivy",
+      "name": "trivy",
+      "owner": "aquasecurity",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "stars": 35153,
+      "forks": 394,
+      "openIssues": 246,
+      "language": "Go",
+      "topics": [
+        "containers",
+        "devsecops",
+        "docker",
+        "go",
+        "golang",
+        "hacktoberfest",
+        "iac",
+        "infrastructure-as-code",
+        "kubernetes",
+        "misconfiguration",
+        "security",
+        "security-tools",
+        "vulnerability",
+        "vulnerability-detection",
+        "vulnerability-scanners"
+      ],
+      "license": "Apache-2.0",
+      "pushedAt": "2026-05-22T11:51:15Z",
+      "updatedAt": "2026-05-24T13:47:58Z",
+      "matchedFeatures": [
+        "quality-gates"
+      ]
+    },
+    "semgrep/semgrep": {
+      "fullName": "semgrep/semgrep",
+      "name": "semgrep",
+      "owner": "semgrep",
+      "url": "https://github.com/semgrep/semgrep",
+      "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+      "stars": 15257,
+      "forks": 942,
+      "openIssues": 873,
+      "language": "OCaml",
+      "topics": [
+        "c",
+        "go",
+        "java",
+        "javascript",
+        "python",
+        "r2c",
+        "ruby",
+        "sast",
+        "semgrep",
+        "static-analysis",
+        "static-code-analysis",
+        "typescript"
+      ],
+      "license": "LGPL-2.1",
+      "pushedAt": "2026-05-22T19:22:29Z",
+      "updatedAt": "2026-05-24T13:47:47Z",
+      "matchedFeatures": [
+        "quality-gates"
+      ]
+    },
+    "EvanLi/Github-Ranking": {
+      "fullName": "EvanLi/Github-Ranking",
+      "name": "Github-Ranking",
+      "owner": "EvanLi",
+      "url": "https://github.com/EvanLi/Github-Ranking",
+      "description": ":star:Github Ranking:star: Github stars and forks ranking list. Github Top100 stars list of different languages. Automatically update daily. | Github",
+      "stars": 11214,
+      "forks": 659,
+      "openIssues": 30,
+      "language": "Python",
+      "topics": [
+        "forks",
+        "github-rank",
+        "github-stars",
+        "python",
+        "ranking",
+        "stars"
+      ],
+      "license": "MIT",
+      "pushedAt": "2026-05-24T04:07:09Z",
+      "updatedAt": "2026-05-24T13:41:29Z",
+      "matchedFeatures": [
+        "github-radar-generation"
+      ]
+    },
+    "star-history/star-history": {
+      "fullName": "star-history/star-history",
+      "name": "star-history",
+      "owner": "star-history",
+      "url": "https://github.com/star-history/star-history",
+      "description": "The de facto GitHub star history graph.",
+      "stars": 9079,
+      "forks": 340,
+      "openIssues": 8,
+      "language": "TypeScript",
+      "topics": [
+        "github",
+        "github-star",
+        "github-star-history",
+        "github-trending",
+        "graph",
+        "history",
+        "star",
+        "star-history"
+      ],
+      "license": "MIT",
+      "pushedAt": "2026-04-30T07:53:48Z",
+      "updatedAt": "2026-05-23T21:27:59Z",
+      "matchedFeatures": [
+        "github-radar-generation"
+      ]
+    },
+    "gayanvoice/top-github-users": {
+      "fullName": "gayanvoice/top-github-users",
+      "name": "top-github-users",
+      "owner": "gayanvoice",
+      "url": "https://github.com/gayanvoice/top-github-users",
+      "description": "Check your ranking in GitHub! Don't forget to star this repository.",
+      "stars": 4764,
+      "forks": 664,
+      "openIssues": 14,
+      "language": "",
+      "topics": [],
+      "license": "",
+      "pushedAt": "2026-05-24T01:34:01Z",
+      "updatedAt": "2026-05-24T01:34:05Z",
+      "matchedFeatures": [
+        "github-radar-generation"
+      ]
+    }
+  },
+  "refreshSummary": {
+    "resultCount": 19,
+    "seedResultCount": 19,
+    "cacheResultCount": 0,
+    "cacheFeatureCount": 0,
+    "cacheFeatures": []
+  }
+}
