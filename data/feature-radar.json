@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-09T06:53:02.628Z",
+  "fetchedAt": "2026-07-10T06:53:20.198Z",
   "policy": {
     "minStars": 3000,
     "months": 3,
-    "pushedAfter": "2026-04-09",
+    "pushedAfter": "2026-04-10",
     "qualifiers": [
       "stars >= 3000",
-      "pushed_at >= 2026-04-09",
+      "pushed_at >= 2026-04-10",
       "archived == false",
       "fork == false"
     ]
@@ -40,9 +40,9 @@
           "owner": "yt-dlp",
           "url": "https://github.com/yt-dlp/yt-dlp",
           "description": "A feature-rich command-line audio/video downloader",
-          "stars": 176555,
-          "forks": 14931,
-          "openIssues": 2504,
+          "stars": 176845,
+          "forks": 14995,
+          "openIssues": 2506,
           "language": "Python",
           "topics": [
             "cli",
@@ -54,8 +54,8 @@
             "yt-dlp"
           ],
           "license": "Unlicense",
-          "pushedAt": "2026-07-06T21:46:30Z",
-          "updatedAt": "2026-07-09T06:50:59Z",
+          "pushedAt": "2026-07-09T23:11:00Z",
+          "updatedAt": "2026-07-10T06:52:32Z",
           "featureScore": 5,
           "matchedTerms": [
             "seed:yt-dlp/yt-dlp"
@@ -76,9 +76,9 @@
           "owner": "google-gemini",
           "url": "https://github.com/google-gemini/gemini-cli",
           "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-          "stars": 105855,
-          "forks": 14225,
-          "openIssues": 1372,
+          "stars": 105878,
+          "forks": 14231,
+          "openIssues": 1369,
           "language": "TypeScript",
           "topics": [
             "ai",
@@ -90,8 +90,8 @@
             "mcp-server"
           ],
           "license": "Apache-2.0",
-          "pushedAt": "2026-07-09T01:33:38Z",
-          "updatedAt": "2026-07-09T06:51:30Z",
+          "pushedAt": "2026-07-10T01:43:07Z",
+          "updatedAt": "2026-07-10T06:50:45Z",
           "featureScore": 5,
           "matchedTerms": [
             "seed:google-gemini/gemini-cli"
@@ -112,9 +112,9 @@
           "owner": "junegunn",
           "url": "https://github.com/junegunn/fzf",
           "description": ":cherry_blossom: A command-line fuzzy finder",
-          "stars": 81572,
-          "forks": 2810,
-          "openIssues": 326,
+          "stars": 81607,
+          "forks": 2811,
+          "openIssues": 327,
           "language": "Go",
           "topics": [
             "bash",
@@ -130,7 +130,7 @@
           ],
           "license": "MIT",
           "pushedAt": "2026-07-06T13:42:37Z",
-          "updatedAt": "2026-07-09T06:22:23Z",
+          "updatedAt": "2026-07-10T06:46:33Z",
           "featureScore": 5,
           "matchedTerms": [
             "seed:junegunn/fzf"
@@ -151,9 +151,9 @@
           "owner": "microsoft",
           "url": "https://github.com/microsoft/winget-cli",
           "description": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface).",
-          "stars": 26140,
-          "forks": 1764,
-          "openIssues": 1323,
+          "stars": 26142,
+          "forks": 1763,
+          "openIssues": 1325,
           "language": "C++",
           "topics": [
             "command-line",
@@ -163,7 +163,7 @@
           ],
           "license": "MIT",
           "pushedAt": "2026-07-09T01:04:27Z",
-          "updatedAt": "2026-07-09T04:36:26Z",
+          "updatedAt": "2026-07-10T00:27:30Z",
           "featureScore": 5,
           "matchedTerms": [
             "cli command"
@@ -175,7 +175,7 @@
             "matches 'command'"
           ],
           "sourceQueries": [
-            "\"cli command\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"cli command\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         },
         {
@@ -184,9 +184,9 @@
           "owner": "simulot",
           "url": "https://github.com/simulot/immich-go",
           "description": "An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives.",
-          "stars": 6488,
+          "stars": 6492,
           "forks": 227,
-          "openIssues": 249,
+          "openIssues": 254,
           "language": "Go",
           "topics": [
             "golang",
@@ -198,7 +198,7 @@
           ],
           "license": "AGPL-3.0",
           "pushedAt": "2026-06-25T10:34:46Z",
-          "updatedAt": "2026-07-09T05:20:09Z",
+          "updatedAt": "2026-07-10T02:26:22Z",
           "featureScore": 4,
           "matchedTerms": [
             "cli command"
@@ -209,7 +209,7 @@
             "matches 'command'"
           ],
           "sourceQueries": [
-            "\"cli command\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"cli command\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         }
       ]
@@ -243,8 +243,8 @@
           "url": "https://github.com/karatelabs/karate",
           "description": "Test Automation Made Simple",
           "stars": 8895,
-          "forks": 2039,
-          "openIssues": 25,
+          "forks": 2038,
+          "openIssues": 26,
           "language": "Java",
           "topics": [
             "api-testing",
@@ -280,7 +280,7 @@
             "topic 'testing'"
           ],
           "sourceQueries": [
-            "\"test automation\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"test automation\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         },
         {
@@ -289,9 +289,9 @@
           "owner": "microsoft",
           "url": "https://github.com/microsoft/playwright",
           "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
-          "stars": 92488,
-          "forks": 6061,
-          "openIssues": 166,
+          "stars": 92553,
+          "forks": 6065,
+          "openIssues": 169,
           "language": "TypeScript",
           "topics": [
             "automation",
@@ -311,8 +311,8 @@
             "webkit"
           ],
           "license": "Apache-2.0",
-          "pushedAt": "2026-07-08T22:45:12Z",
-          "updatedAt": "2026-07-09T06:47:50Z",
+          "pushedAt": "2026-07-10T02:18:06Z",
+          "updatedAt": "2026-07-10T06:46:19Z",
           "featureScore": 8,
           "matchedTerms": [
             "seed:microsoft/playwright"
@@ -335,9 +335,9 @@
           "owner": "usebruno",
           "url": "https://github.com/usebruno/bruno",
           "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
-          "stars": 45450,
-          "forks": 2655,
-          "openIssues": 1757,
+          "stars": 45480,
+          "forks": 2664,
+          "openIssues": 1764,
           "language": "JavaScript",
           "topics": [
             "api-client",
@@ -356,8 +356,8 @@
             "testing-tools"
           ],
           "license": "MIT",
-          "pushedAt": "2026-07-08T18:33:21Z",
-          "updatedAt": "2026-07-09T04:47:32Z",
+          "pushedAt": "2026-07-09T17:54:33Z",
+          "updatedAt": "2026-07-10T06:32:57Z",
           "featureScore": 8,
           "matchedTerms": [
             "seed:usebruno/bruno"
@@ -380,7 +380,7 @@
           "owner": "robotframework",
           "url": "https://github.com/robotframework/robotframework",
           "description": "Generic automation framework for acceptance testing and RPA",
-          "stars": 11740,
+          "stars": 11743,
           "forks": 2551,
           "openIssues": 293,
           "language": "Python",
@@ -395,8 +395,8 @@
             "testing"
           ],
           "license": "Apache-2.0",
-          "pushedAt": "2026-07-08T23:18:41Z",
-          "updatedAt": "2026-07-09T05:58:14Z",
+          "pushedAt": "2026-07-10T06:45:37Z",
+          "updatedAt": "2026-07-10T06:45:51Z",
           "featureScore": 7,
           "matchedTerms": [
             "seed:robotframework/robotframework"
@@ -446,7 +446,7 @@
             "matches 'testing'"
           ],
           "sourceQueries": [
-            "\"test automation\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"test automation\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         }
       ]
@@ -479,9 +479,9 @@
           "owner": "PrefectHQ",
           "url": "https://github.com/PrefectHQ/prefect",
           "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-          "stars": 22810,
-          "forks": 2370,
-          "openIssues": 812,
+          "stars": 22864,
+          "forks": 2369,
+          "openIssues": 802,
           "language": "Python",
           "topics": [
             "automation",
@@ -500,8 +500,8 @@
             "workflow-engine"
           ],
           "license": "Apache-2.0",
-          "pushedAt": "2026-07-09T01:08:43Z",
-          "updatedAt": "2026-07-09T06:49:56Z",
+          "pushedAt": "2026-07-09T21:27:46Z",
+          "updatedAt": "2026-07-10T05:56:25Z",
           "featureScore": 22,
           "matchedTerms": [
             "seed:PrefectHQ/prefect",
@@ -518,7 +518,7 @@
             "topic 'workflow'"
           ],
           "sourceQueries": [
-            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false",
+            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false",
             "seed repository PrefectHQ/prefect"
           ]
         },
@@ -528,9 +528,9 @@
           "owner": "n8n-io",
           "url": "https://github.com/n8n-io/n8n",
           "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-          "stars": 195752,
-          "forks": 59187,
-          "openIssues": 1453,
+          "stars": 195893,
+          "forks": 59213,
+          "openIssues": 1457,
           "language": "TypeScript",
           "topics": [
             "ai",
@@ -555,8 +555,8 @@
             "workflow-automation"
           ],
           "license": "NOASSERTION",
-          "pushedAt": "2026-07-09T06:52:02Z",
-          "updatedAt": "2026-07-09T06:48:41Z",
+          "pushedAt": "2026-07-10T06:53:17Z",
+          "updatedAt": "2026-07-10T06:34:51Z",
           "featureScore": 16,
           "matchedTerms": [
             "seed:n8n-io/n8n",
@@ -571,7 +571,7 @@
             "topic 'workflow'"
           ],
           "sourceQueries": [
-            "\"workflow automation\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false",
+            "\"workflow automation\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false",
             "seed repository n8n-io/n8n"
           ]
         },
@@ -581,7 +581,7 @@
           "owner": "Netflix",
           "url": "https://github.com/Netflix/maestro",
           "description": "Maestro: Netflixs Workflow Orchestrator",
-          "stars": 3798,
+          "stars": 3799,
           "forks": 295,
           "openIssues": 32,
           "language": "Java",
@@ -609,7 +609,7 @@
           ],
           "license": "Apache-2.0",
           "pushedAt": "2026-07-02T22:10:28Z",
-          "updatedAt": "2026-07-08T17:28:57Z",
+          "updatedAt": "2026-07-10T05:00:28Z",
           "featureScore": 14,
           "matchedTerms": [
             "workflow orchestration"
@@ -626,7 +626,7 @@
             "topic 'workflow'"
           ],
           "sourceQueries": [
-            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         },
         {
@@ -635,9 +635,9 @@
           "owner": "apache",
           "url": "https://github.com/apache/airflow",
           "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
-          "stars": 46068,
-          "forks": 17368,
-          "openIssues": 1679,
+          "stars": 46085,
+          "forks": 17375,
+          "openIssues": 1667,
           "language": "Python",
           "topics": [
             "airflow",
@@ -662,8 +662,8 @@
             "workflow-orchestration"
           ],
           "license": "Apache-2.0",
-          "pushedAt": "2026-07-09T06:45:17Z",
-          "updatedAt": "2026-07-09T06:45:25Z",
+          "pushedAt": "2026-07-10T06:25:30Z",
+          "updatedAt": "2026-07-10T06:25:38Z",
           "featureScore": 13,
           "matchedTerms": [
             "seed:apache/airflow"
@@ -689,9 +689,9 @@
           "owner": "labring",
           "url": "https://github.com/labring/FastGPT",
           "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
-          "stars": 28878,
-          "forks": 7209,
-          "openIssues": 155,
+          "stars": 28897,
+          "forks": 7212,
+          "openIssues": 156,
           "language": "TypeScript",
           "topics": [
             "agent",
@@ -706,8 +706,8 @@
             "workflow"
           ],
           "license": "NOASSERTION",
-          "pushedAt": "2026-07-09T05:07:56Z",
-          "updatedAt": "2026-07-09T06:02:29Z",
+          "pushedAt": "2026-07-09T10:06:15Z",
+          "updatedAt": "2026-07-10T06:41:18Z",
           "featureScore": 7,
           "matchedTerms": [
             "workflow orchestration"
@@ -720,7 +720,7 @@
             "topic 'workflow'"
           ],
           "sourceQueries": [
-            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         },
         {
@@ -729,9 +729,9 @@
           "owner": "activepieces",
           "url": "https://github.com/activepieces/activepieces",
           "description": "AI Agents & MCPs & AI Workflow Automation (~400 MCP servers for AI agents) AI Automation / AI Agent with MCPs AI Workflows & AI Agents MCPs for AI Agents",
-          "stars": 23181,
-          "forks": 3900,
-          "openIssues": 588,
+          "stars": 23195,
+          "forks": 3905,
+          "openIssues": 593,
           "language": "TypeScript",
           "topics": [
             "ai-agent",
@@ -749,8 +749,8 @@
             "workflows"
           ],
           "license": "NOASSERTION",
-          "pushedAt": "2026-07-09T06:27:13Z",
-          "updatedAt": "2026-07-09T06:13:34Z",
+          "pushedAt": "2026-07-09T23:37:57Z",
+          "updatedAt": "2026-07-10T04:50:21Z",
           "featureScore": 7,
           "matchedTerms": [
             "workflow automation"
@@ -763,7 +763,7 @@
             "topic 'workflow'"
           ],
           "sourceQueries": [
-            "\"workflow automation\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"workflow automation\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         },
         {
@@ -772,9 +772,9 @@
           "owner": "dapr",
           "url": "https://github.com/dapr/dapr",
           "description": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.",
-          "stars": 25918,
-          "forks": 2098,
-          "openIssues": 392,
+          "stars": 25920,
+          "forks": 2100,
+          "openIssues": 398,
           "language": "Go",
           "topics": [
             "containers",
@@ -788,8 +788,8 @@
             "state-management"
           ],
           "license": "Apache-2.0",
-          "pushedAt": "2026-07-07T21:50:33Z",
-          "updatedAt": "2026-07-09T01:08:57Z",
+          "pushedAt": "2026-07-09T20:17:51Z",
+          "updatedAt": "2026-07-10T05:39:15Z",
           "featureScore": 5,
           "matchedTerms": [
             "workflow orchestration"
@@ -801,7 +801,7 @@
             "matches 'workflow'"
           ],
           "sourceQueries": [
-            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         },
         {
@@ -810,7 +810,7 @@
           "owner": "pipeshub-ai",
           "url": "https://github.com/pipeshub-ai/pipeshub-ai",
           "description": "PipesHub is a fully extensible and explainable workplace AI platform for enterprise search and workflow automation",
-          "stars": 3010,
+          "stars": 3013,
           "forks": 469,
           "openIssues": 92,
           "language": "Python",
@@ -833,8 +833,8 @@
             "slack"
           ],
           "license": "Apache-2.0",
-          "pushedAt": "2026-07-09T06:07:20Z",
-          "updatedAt": "2026-07-09T06:07:23Z",
+          "pushedAt": "2026-07-10T05:59:12Z",
+          "updatedAt": "2026-07-10T00:20:52Z",
           "featureScore": 5,
           "matchedTerms": [
             "workflow automation"
@@ -846,7 +846,7 @@
             "matches 'workflow'"
           ],
           "sourceQueries": [
-            "\"workflow automation\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"workflow automation\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         },
         {
@@ -855,9 +855,9 @@
           "owner": "inngest",
           "url": "https://github.com/inngest/inngest",
           "description": "The leading workflow orchestration platform. Run stateful step functions and AI workflows on serverless, servers, or the edge.",
-          "stars": 5579,
+          "stars": 5581,
           "forks": 326,
-          "openIssues": 224,
+          "openIssues": 226,
           "language": "Go",
           "topics": [
             "cli",
@@ -870,8 +870,8 @@
             "workflows"
           ],
           "license": "NOASSERTION",
-          "pushedAt": "2026-07-09T06:45:42Z",
-          "updatedAt": "2026-07-09T03:04:17Z",
+          "pushedAt": "2026-07-10T04:43:52Z",
+          "updatedAt": "2026-07-10T04:44:09Z",
           "featureScore": 4,
           "matchedTerms": [
             "workflow orchestration"
@@ -882,7 +882,7 @@
             "matches 'workflow'"
           ],
           "sourceQueries": [
-            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         },
         {
@@ -891,14 +891,14 @@
           "owner": "pixlcore",
           "url": "https://github.com/pixlcore/xyops",
           "description": "A complete workflow automation and server monitoring system.",
-          "stars": 4556,
+          "stars": 4558,
           "forks": 452,
-          "openIssues": 38,
+          "openIssues": 34,
           "language": "JavaScript",
           "topics": [],
           "license": "BSD-3-Clause",
-          "pushedAt": "2026-07-07T21:56:44Z",
-          "updatedAt": "2026-07-09T01:02:54Z",
+          "pushedAt": "2026-07-09T22:13:48Z",
+          "updatedAt": "2026-07-10T05:45:14Z",
           "featureScore": 4,
           "matchedTerms": [
             "workflow automation"
@@ -909,7 +909,7 @@
             "matches 'workflow'"
           ],
           "sourceQueries": [
-            "\"workflow automation\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"workflow automation\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         },
         {
@@ -918,14 +918,14 @@
           "owner": "tradesdontlie",
           "url": "https://github.com/tradesdontlie/tradingview-mcp",
           "description": "AI-assisted TradingView chart analysis connect Claude Code to your TradingView Desktop for personal workflow automation",
-          "stars": 4259,
-          "forks": 2031,
-          "openIssues": 101,
+          "stars": 4285,
+          "forks": 2039,
+          "openIssues": 105,
           "language": "JavaScript",
           "topics": [],
           "license": "NOASSERTION",
           "pushedAt": "2026-07-06T15:01:58Z",
-          "updatedAt": "2026-07-09T06:23:51Z",
+          "updatedAt": "2026-07-10T05:43:56Z",
           "featureScore": 4,
           "matchedTerms": [
             "workflow automation"
@@ -936,7 +936,7 @@
             "matches 'workflow'"
           ],
           "sourceQueries": [
-            "\"workflow automation\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"workflow automation\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         },
         {
@@ -947,7 +947,7 @@
           "description": "Open-source Infrastructure as Code (IaC) orchestration platform: GitOps workflows, orchestration, code generation, observability, drift detection, asset management, policies, Slack notifications, and more. Integrates with Terraform, OpenTofu, Terragrunt, Kubernetes, GitHub Actions, GitLab CI/CD, BitBucket Pipelines, and any other CI/CD platform.",
           "stars": 3607,
           "forks": 124,
-          "openIssues": 101,
+          "openIssues": 100,
           "language": "Go",
           "topics": [],
           "license": "MPL-2.0",
@@ -962,7 +962,7 @@
             "matches 'workflow'"
           ],
           "sourceQueries": [
-            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false"
+            "\"workflow orchestration\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false"
           ]
         }
       ]
@@ -996,9 +996,9 @@
           "owner": "SigNoz",
           "url": "https://github.com/SigNoz/signoz",
           "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. . Open source Application Performance Monitoring (APM) & Observability tool",
-          "stars": 28532,
-          "forks": 2293,
-          "openIssues": 1510,
+          "stars": 28619,
+          "forks": 2297,
+          "openIssues": 1527,
           "language": "TypeScript",
           "topics": [
             "apm",
@@ -1023,8 +1023,8 @@
             "typescript"
           ],
           "license": "NOASSERTION",
-          "pushedAt": "2026-07-09T06:47:23Z",
-          "updatedAt": "2026-07-09T06:46:09Z",
+          "pushedAt": "2026-07-10T06:40:48Z",
+          "updatedAt": "2026-07-10T06:37:32Z",
           "featureScore": 5,
           "matchedTerms": [
             "seed:SigNoz/signoz"
@@ -1045,9 +1045,9 @@
           "owner": "apache",
           "url": "https://github.com/apache/skywalking",
           "description": "APM, Application Performance Monitoring System",
-          "stars": 24865,
-          "forks": 6640,
-          "openIssues": 20,
+          "stars": 24867,
+          "forks": 6641,
+          "openIssues": 19,
           "language": "Java",
           "topics": [
             "apm",
@@ -1067,7 +1067,7 @@
           ],
           "license": "Apache-2.0",
           "pushedAt": "2026-07-07T12:51:51Z",
-          "updatedAt": "2026-07-09T06:05:29Z",
+          "updatedAt": "2026-07-10T05:40:15Z",
           "featureScore": 4,
           "matchedTerms": [
             "seed:apache/skywalking"
@@ -1087,9 +1087,9 @@
           "owner": "grafana",
           "url": "https://github.com/grafana/grafana",
           "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
-          "stars": 75368,
-          "forks": 14195,
-          "openIssues": 3531,
+          "stars": 75414,
+          "forks": 14225,
+          "openIssues": 3528,
           "language": "TypeScript",
           "topics": [
             "alerting",
@@ -1109,8 +1109,8 @@
             "prometheus"
           ],
           "license": "AGPL-3.0",
-          "pushedAt": "2026-07-09T06:49:33Z",
-          "updatedAt": "2026-07-09T06:49:37Z",
+          "pushedAt": "2026-07-10T06:39:43Z",
+          "updatedAt": "2026-07-10T06:11:40Z",
           "featureScore": 3,
           "matchedTerms": [
             "seed:grafana/grafana"
@@ -1158,7 +1158,7 @@
           "owner": "SonarSource",
           "url": "https://github.com/SonarSource/sonarqube",
           "description": "Continuous Inspection",
-          "stars": 10777,
+          "stars": 10779,
           "forks": 2203,
           "openIssues": 1,
           "language": "Java",
@@ -1168,8 +1168,8 @@
             "static-analysis"
           ],
           "license": "LGPL-3.0",
-          "pushedAt": "2026-07-08T20:31:09Z",
-          "updatedAt": "2026-07-09T06:01:04Z",
+          "pushedAt": "2026-07-09T20:36:55Z",
+          "updatedAt": "2026-07-10T02:49:20Z",
           "featureScore": 6,
           "matchedTerms": [
             "seed:sonarsource/sonarqube"
@@ -1190,9 +1190,9 @@
           "owner": "aquasecurity",
           "url": "https://github.com/aquasecurity/trivy",
           "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-          "stars": 36832,
-          "forks": 527,
-          "openIssues": 230,
+          "stars": 36856,
+          "forks": 532,
+          "openIssues": 232,
           "language": "Go",
           "topics": [
             "containers",
@@ -1212,8 +1212,8 @@
             "vulnerability-scanners"
           ],
           "license": "Apache-2.0",
-          "pushedAt": "2026-07-08T11:57:34Z",
-          "updatedAt": "2026-07-09T06:48:00Z",
+          "pushedAt": "2026-07-09T14:51:37Z",
+          "updatedAt": "2026-07-10T05:06:04Z",
           "featureScore": 5,
           "matchedTerms": [
             "seed:aquasecurity/trivy"
@@ -1234,9 +1234,9 @@
           "owner": "semgrep",
           "url": "https://github.com/semgrep/semgrep",
           "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
-          "stars": 15816,
+          "stars": 15824,
           "forks": 990,
-          "openIssues": 879,
+          "openIssues": 880,
           "language": "OCaml",
           "topics": [
             "c",
@@ -1253,8 +1253,8 @@
             "typescript"
           ],
           "license": "LGPL-2.1",
-          "pushedAt": "2026-07-09T00:25:50Z",
-          "updatedAt": "2026-07-09T05:26:29Z",
+          "pushedAt": "2026-07-10T00:25:24Z",
+          "updatedAt": "2026-07-10T04:24:19Z",
           "featureScore": 5,
           "matchedTerms": [
             "seed:semgrep/semgrep"
@@ -1274,17 +1274,17 @@
           "owner": "ossf",
           "url": "https://github.com/ossf/scorecard",
           "description": "OpenSSF Scorecard - Security health metrics for Open Source",
-          "stars": 5572,
+          "stars": 5575,
           "forks": 678,
-          "openIssues": 425,
+          "openIssues": 423,
           "language": "Go",
           "topics": [
             "openssf-scorecard",
             "scorecard"
           ],
           "license": "Apache-2.0",
-          "pushedAt": "2026-07-06T08:22:28Z",
-          "updatedAt": "2026-07-09T03:59:57Z",
+          "pushedAt": "2026-07-10T02:16:52Z",
+          "updatedAt": "2026-07-09T19:32:03Z",
           "featureScore": 4,
           "matchedTerms": [
             "seed:ossf/scorecard"
@@ -1333,7 +1333,7 @@
           "owner": "EvanLi",
           "url": "https://github.com/EvanLi/Github-Ranking",
           "description": ":star:Github Ranking:star: Github stars and forks ranking list. Github Top100 stars list of different languages. Automatically update daily. | Github",
-          "stars": 11558,
+          "stars": 11568,
           "forks": 676,
           "openIssues": 31,
           "language": "Python",
@@ -1346,8 +1346,8 @@
             "stars"
           ],
           "license": "MIT",
-          "pushedAt": "2026-07-09T04:07:30Z",
-          "updatedAt": "2026-07-09T05:36:40Z",
+          "pushedAt": "2026-07-10T04:07:39Z",
+          "updatedAt": "2026-07-10T05:47:05Z",
           "featureScore": 20,
           "matchedTerms": [
             "github ranking",
@@ -1364,7 +1364,7 @@
             "topic 'stars'"
           ],
           "sourceQueries": [
-            "\"github ranking\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false",
+            "\"github ranking\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false",
             "seed repository EvanLi/Github-Ranking"
           ]
         },
@@ -1374,7 +1374,7 @@
           "owner": "star-history",
           "url": "https://github.com/star-history/star-history",
           "description": "The de facto GitHub star history graph.",
-          "stars": 9267,
+          "stars": 9270,
           "forks": 351,
           "openIssues": 8,
           "language": "TypeScript",
@@ -1390,7 +1390,7 @@
           ],
           "license": "MIT",
           "pushedAt": "2026-07-08T07:32:38Z",
-          "updatedAt": "2026-07-09T06:29:07Z",
+          "updatedAt": "2026-07-10T02:38:51Z",
           "featureScore": 14,
           "matchedTerms": [
             "seed:star-history/star-history",
@@ -1404,7 +1404,7 @@
             "topic 'history'"
           ],
           "sourceQueries": [
-            "\"star history\" stars:>=3000 pushed:>=2026-04-09 archived:false fork:false",
+            "\"star history\" stars:>=3000 pushed:>=2026-04-10 archived:false fork:false",
             "seed repository star-history/star-history"
           ]
         },
@@ -1414,14 +1414,14 @@
           "owner": "gayanvoice",
           "url": "https://github.com/gayanvoice/top-github-users",
           "description": "Check your ranking in GitHub! Don't forget to star this repository.",
-          "stars": 4823,
-          "forks": 673,
+          "stars": 4824,
+          "forks": 672,
           "openIssues": 17,
           "language": "",
           "topics": [],
           "license": "",
-          "pushedAt": "2026-07-09T02:38:01Z",
-          "updatedAt": "2026-07-09T02:38:07Z",
+          "pushedAt": "2026-07-10T02:40:16Z",
+          "updatedAt": "2026-07-10T05:58:55Z",
           "featureScore": 2,
           "matchedTerms": [
             "seed:gayanvoice/top-github-users"
@@ -1445,9 +1445,9 @@
       "owner": "google-gemini",
       "url": "https://github.com/google-gemini/gemini-cli",
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "stars": 105855,
-      "forks": 14225,
-      "openIssues": 1372,
+      "stars": 105878,
+      "forks": 14231,
+      "openIssues": 1369,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -1459,8 +1459,8 @@
         "mcp-server"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-07-09T01:33:38Z",
-      "updatedAt": "2026-07-09T06:51:30Z",
+      "pushedAt": "2026-07-10T01:43:07Z",
+      "updatedAt": "2026-07-10T06:50:45Z",
       "matchedFeatures": [
         "cli-command-ux"
       ]
@@ -1471,9 +1471,9 @@
       "owner": "yt-dlp",
       "url": "https://github.com/yt-dlp/yt-dlp",
       "description": "A feature-rich command-line audio/video downloader",
-      "stars": 176555,
-      "forks": 14931,
-      "openIssues": 2504,
+      "stars": 176845,
+      "forks": 14995,
+      "openIssues": 2506,
       "language": "Python",
       "topics": [
         "cli",
@@ -1485,8 +1485,8 @@
         "yt-dlp"
       ],
       "license": "Unlicense",
-      "pushedAt": "2026-07-06T21:46:30Z",
-      "updatedAt": "2026-07-09T06:50:59Z",
+      "pushedAt": "2026-07-09T23:11:00Z",
+      "updatedAt": "2026-07-10T06:52:32Z",
       "matchedFeatures": [
         "cli-command-ux"
       ]
@@ -1497,9 +1497,9 @@
       "owner": "junegunn",
       "url": "https://github.com/junegunn/fzf",
       "description": ":cherry_blossom: A command-line fuzzy finder",
-      "stars": 81572,
-      "forks": 2810,
-      "openIssues": 326,
+      "stars": 81607,
+      "forks": 2811,
+      "openIssues": 327,
       "language": "Go",
       "topics": [
         "bash",
@@ -1515,7 +1515,7 @@
       ],
       "license": "MIT",
       "pushedAt": "2026-07-06T13:42:37Z",
-      "updatedAt": "2026-07-09T06:22:23Z",
+      "updatedAt": "2026-07-10T06:46:33Z",
       "matchedFeatures": [
         "cli-command-ux"
       ]
@@ -1526,9 +1526,9 @@
       "owner": "microsoft",
       "url": "https://github.com/microsoft/playwright",
       "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
-      "stars": 92488,
-      "forks": 6061,
-      "openIssues": 166,
+      "stars": 92553,
+      "forks": 6065,
+      "openIssues": 169,
       "language": "TypeScript",
       "topics": [
         "automation",
@@ -1548,8 +1548,8 @@
         "webkit"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-07-08T22:45:12Z",
-      "updatedAt": "2026-07-09T06:47:50Z",
+      "pushedAt": "2026-07-10T02:18:06Z",
+      "updatedAt": "2026-07-10T06:46:19Z",
       "matchedFeatures": [
         "api-test-runner"
       ]
@@ -1560,9 +1560,9 @@
       "owner": "usebruno",
       "url": "https://github.com/usebruno/bruno",
       "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
-      "stars": 45450,
-      "forks": 2655,
-      "openIssues": 1757,
+      "stars": 45480,
+      "forks": 2664,
+      "openIssues": 1764,
       "language": "JavaScript",
       "topics": [
         "api-client",
@@ -1581,8 +1581,8 @@
         "testing-tools"
       ],
       "license": "MIT",
-      "pushedAt": "2026-07-08T18:33:21Z",
-      "updatedAt": "2026-07-09T04:47:32Z",
+      "pushedAt": "2026-07-09T17:54:33Z",
+      "updatedAt": "2026-07-10T06:32:57Z",
       "matchedFeatures": [
         "api-test-runner"
       ]
@@ -1593,7 +1593,7 @@
       "owner": "robotframework",
       "url": "https://github.com/robotframework/robotframework",
       "description": "Generic automation framework for acceptance testing and RPA",
-      "stars": 11740,
+      "stars": 11743,
       "forks": 2551,
       "openIssues": 293,
       "language": "Python",
@@ -1608,8 +1608,8 @@
         "testing"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-07-08T23:18:41Z",
-      "updatedAt": "2026-07-09T05:58:14Z",
+      "pushedAt": "2026-07-10T06:45:37Z",
+      "updatedAt": "2026-07-10T06:45:51Z",
       "matchedFeatures": [
         "api-test-runner"
       ]
@@ -1620,9 +1620,9 @@
       "owner": "n8n-io",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 195752,
-      "forks": 59187,
-      "openIssues": 1453,
+      "stars": 195893,
+      "forks": 59213,
+      "openIssues": 1457,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -1647,8 +1647,8 @@
         "workflow-automation"
       ],
       "license": "NOASSERTION",
-      "pushedAt": "2026-07-09T06:52:02Z",
-      "updatedAt": "2026-07-09T06:48:41Z",
+      "pushedAt": "2026-07-10T06:53:17Z",
+      "updatedAt": "2026-07-10T06:34:51Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -1659,9 +1659,9 @@
       "owner": "apache",
       "url": "https://github.com/apache/airflow",
       "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
-      "stars": 46068,
-      "forks": 17368,
-      "openIssues": 1679,
+      "stars": 46085,
+      "forks": 17375,
+      "openIssues": 1667,
       "language": "Python",
       "topics": [
         "airflow",
@@ -1686,8 +1686,8 @@
         "workflow-orchestration"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-07-09T06:45:17Z",
-      "updatedAt": "2026-07-09T06:45:25Z",
+      "pushedAt": "2026-07-10T06:25:30Z",
+      "updatedAt": "2026-07-10T06:25:38Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -1698,9 +1698,9 @@
       "owner": "PrefectHQ",
       "url": "https://github.com/PrefectHQ/prefect",
       "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-      "stars": 22810,
-      "forks": 2370,
-      "openIssues": 812,
+      "stars": 22864,
+      "forks": 2369,
+      "openIssues": 802,
       "language": "Python",
       "topics": [
         "automation",
@@ -1719,8 +1719,8 @@
         "workflow-engine"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-07-09T01:08:43Z",
-      "updatedAt": "2026-07-09T06:49:56Z",
+      "pushedAt": "2026-07-09T21:27:46Z",
+      "updatedAt": "2026-07-10T05:56:25Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -1731,9 +1731,9 @@
       "owner": "grafana",
       "url": "https://github.com/grafana/grafana",
       "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
-      "stars": 75368,
-      "forks": 14195,
-      "openIssues": 3531,
+      "stars": 75414,
+      "forks": 14225,
+      "openIssues": 3528,
       "language": "TypeScript",
       "topics": [
         "alerting",
@@ -1753,8 +1753,8 @@
         "prometheus"
       ],
       "license": "AGPL-3.0",
-      "pushedAt": "2026-07-09T06:49:33Z",
-      "updatedAt": "2026-07-09T06:49:37Z",
+      "pushedAt": "2026-07-10T06:39:43Z",
+      "updatedAt": "2026-07-10T06:11:40Z",
       "matchedFeatures": [
         "evidence-diagnosis"
       ]
@@ -1765,9 +1765,9 @@
       "owner": "SigNoz",
       "url": "https://github.com/SigNoz/signoz",
       "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. . Open source Application Performance Monitoring (APM) & Observability tool",
-      "stars": 28532,
-      "forks": 2293,
-      "openIssues": 1510,
+      "stars": 28619,
+      "forks": 2297,
+      "openIssues": 1527,
       "language": "TypeScript",
       "topics": [
         "apm",
@@ -1792,8 +1792,8 @@
         "typescript"
       ],
       "license": "NOASSERTION",
-      "pushedAt": "2026-07-09T06:47:23Z",
-      "updatedAt": "2026-07-09T06:46:09Z",
+      "pushedAt": "2026-07-10T06:40:48Z",
+      "updatedAt": "2026-07-10T06:37:32Z",
       "matchedFeatures": [
         "evidence-diagnosis"
       ]
@@ -1804,9 +1804,9 @@
       "owner": "apache",
       "url": "https://github.com/apache/skywalking",
       "description": "APM, Application Performance Monitoring System",
-      "stars": 24865,
-      "forks": 6640,
-      "openIssues": 20,
+      "stars": 24867,
+      "forks": 6641,
+      "openIssues": 19,
       "language": "Java",
       "topics": [
         "apm",
@@ -1826,7 +1826,7 @@
       ],
       "license": "Apache-2.0",
       "pushedAt": "2026-07-07T12:51:51Z",
-      "updatedAt": "2026-07-09T06:05:29Z",
+      "updatedAt": "2026-07-10T05:40:15Z",
       "matchedFeatures": [
         "evidence-diagnosis"
       ]
@@ -1837,7 +1837,7 @@
       "owner": "SonarSource",
       "url": "https://github.com/SonarSource/sonarqube",
       "description": "Continuous Inspection",
-      "stars": 10777,
+      "stars": 10779,
       "forks": 2203,
       "openIssues": 1,
       "language": "Java",
@@ -1847,8 +1847,8 @@
         "static-analysis"
       ],
       "license": "LGPL-3.0",
-      "pushedAt": "2026-07-08T20:31:09Z",
-      "updatedAt": "2026-07-09T06:01:04Z",
+      "pushedAt": "2026-07-09T20:36:55Z",
+      "updatedAt": "2026-07-10T02:49:20Z",
       "matchedFeatures": [
         "quality-gates"
       ]
@@ -1859,17 +1859,17 @@
       "owner": "ossf",
       "url": "https://github.com/ossf/scorecard",
       "description": "OpenSSF Scorecard - Security health metrics for Open Source",
-      "stars": 5572,
+      "stars": 5575,
       "forks": 678,
-      "openIssues": 425,
+      "openIssues": 423,
       "language": "Go",
       "topics": [
         "openssf-scorecard",
         "scorecard"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-07-06T08:22:28Z",
-      "updatedAt": "2026-07-09T03:59:57Z",
+      "pushedAt": "2026-07-10T02:16:52Z",
+      "updatedAt": "2026-07-09T19:32:03Z",
       "matchedFeatures": [
         "quality-gates"
       ]
@@ -1880,9 +1880,9 @@
       "owner": "aquasecurity",
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-      "stars": 36832,
-      "forks": 527,
-      "openIssues": 230,
+      "stars": 36856,
+      "forks": 532,
+      "openIssues": 232,
       "language": "Go",
       "topics": [
         "containers",
@@ -1902,8 +1902,8 @@
         "vulnerability-scanners"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-07-08T11:57:34Z",
-      "updatedAt": "2026-07-09T06:48:00Z",
+      "pushedAt": "2026-07-09T14:51:37Z",
+      "updatedAt": "2026-07-10T05:06:04Z",
       "matchedFeatures": [
         "quality-gates"
       ]
@@ -1914,9 +1914,9 @@
       "owner": "semgrep",
       "url": "https://github.com/semgrep/semgrep",
       "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
-      "stars": 15816,
+      "stars": 15824,
       "forks": 990,
-      "openIssues": 879,
+      "openIssues": 880,
       "language": "OCaml",
       "topics": [
         "c",
@@ -1933,8 +1933,8 @@
         "typescript"
       ],
       "license": "LGPL-2.1",
-      "pushedAt": "2026-07-09T00:25:50Z",
-      "updatedAt": "2026-07-09T05:26:29Z",
+      "pushedAt": "2026-07-10T00:25:24Z",
+      "updatedAt": "2026-07-10T04:24:19Z",
       "matchedFeatures": [
         "quality-gates"
       ]
@@ -1945,7 +1945,7 @@
       "owner": "EvanLi",
       "url": "https://github.com/EvanLi/Github-Ranking",
       "description": ":star:Github Ranking:star: Github stars and forks ranking list. Github Top100 stars list of different languages. Automatically update daily. | Github",
-      "stars": 11558,
+      "stars": 11568,
       "forks": 676,
       "openIssues": 31,
       "language": "Python",
@@ -1958,8 +1958,8 @@
         "stars"
       ],
       "license": "MIT",
-      "pushedAt": "2026-07-09T04:07:30Z",
-      "updatedAt": "2026-07-09T05:36:40Z",
+      "pushedAt": "2026-07-10T04:07:39Z",
+      "updatedAt": "2026-07-10T05:47:05Z",
       "matchedFeatures": [
         "github-radar-generation"
       ]
@@ -1970,7 +1970,7 @@
       "owner": "star-history",
       "url": "https://github.com/star-history/star-history",
       "description": "The de facto GitHub star history graph.",
-      "stars": 9267,
+      "stars": 9270,
       "forks": 351,
       "openIssues": 8,
       "language": "TypeScript",
@@ -1986,7 +1986,7 @@
       ],
       "license": "MIT",
       "pushedAt": "2026-07-08T07:32:38Z",
-      "updatedAt": "2026-07-09T06:29:07Z",
+      "updatedAt": "2026-07-10T02:38:51Z",
       "matchedFeatures": [
         "github-radar-generation"
       ]
@@ -1997,14 +1997,14 @@
       "owner": "gayanvoice",
       "url": "https://github.com/gayanvoice/top-github-users",
       "description": "Check your ranking in GitHub! Don't forget to star this repository.",
-      "stars": 4823,
-      "forks": 673,
+      "stars": 4824,
+      "forks": 672,
       "openIssues": 17,
       "language": "",
       "topics": [],
       "license": "",
-      "pushedAt": "2026-07-09T02:38:01Z",
-      "updatedAt": "2026-07-09T02:38:07Z",
+      "pushedAt": "2026-07-10T02:40:16Z",
+      "updatedAt": "2026-07-10T05:58:55Z",
       "matchedFeatures": [
         "github-radar-generation"
       ]
@@ -2015,9 +2015,9 @@
       "owner": "microsoft",
       "url": "https://github.com/microsoft/winget-cli",
       "description": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface).",
-      "stars": 26140,
-      "forks": 1764,
-      "openIssues": 1323,
+      "stars": 26142,
+      "forks": 1763,
+      "openIssues": 1325,
       "language": "C++",
       "topics": [
         "command-line",
@@ -2027,7 +2027,7 @@
       ],
       "license": "MIT",
       "pushedAt": "2026-07-09T01:04:27Z",
-      "updatedAt": "2026-07-09T04:36:26Z",
+      "updatedAt": "2026-07-10T00:27:30Z",
       "matchedFeatures": [
         "cli-command-ux"
       ]
@@ -2038,9 +2038,9 @@
       "owner": "simulot",
       "url": "https://github.com/simulot/immich-go",
       "description": "An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives.",
-      "stars": 6488,
+      "stars": 6492,
       "forks": 227,
-      "openIssues": 249,
+      "openIssues": 254,
       "language": "Go",
       "topics": [
         "golang",
@@ -2052,7 +2052,7 @@
       ],
       "license": "AGPL-3.0",
       "pushedAt": "2026-06-25T10:34:46Z",
-      "updatedAt": "2026-07-09T05:20:09Z",
+      "updatedAt": "2026-07-10T02:26:22Z",
       "matchedFeatures": [
         "cli-command-ux"
       ]
@@ -2064,8 +2064,8 @@
       "url": "https://github.com/karatelabs/karate",
       "description": "Test Automation Made Simple",
       "stars": 8895,
-      "forks": 2039,
-      "openIssues": 25,
+      "forks": 2038,
+      "openIssues": 26,
       "language": "Java",
       "topics": [
         "api-testing",
@@ -2126,9 +2126,9 @@
       "owner": "activepieces",
       "url": "https://github.com/activepieces/activepieces",
       "description": "AI Agents & MCPs & AI Workflow Automation (~400 MCP servers for AI agents) AI Automation / AI Agent with MCPs AI Workflows & AI Agents MCPs for AI Agents",
-      "stars": 23181,
-      "forks": 3900,
-      "openIssues": 588,
+      "stars": 23195,
+      "forks": 3905,
+      "openIssues": 593,
       "language": "TypeScript",
       "topics": [
         "ai-agent",
@@ -2146,8 +2146,8 @@
         "workflows"
       ],
       "license": "NOASSERTION",
-      "pushedAt": "2026-07-09T06:27:13Z",
-      "updatedAt": "2026-07-09T06:13:34Z",
+      "pushedAt": "2026-07-09T23:37:57Z",
+      "updatedAt": "2026-07-10T04:50:21Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2158,14 +2158,14 @@
       "owner": "pixlcore",
       "url": "https://github.com/pixlcore/xyops",
       "description": "A complete workflow automation and server monitoring system.",
-      "stars": 4556,
+      "stars": 4558,
       "forks": 452,
-      "openIssues": 38,
+      "openIssues": 34,
       "language": "JavaScript",
       "topics": [],
       "license": "BSD-3-Clause",
-      "pushedAt": "2026-07-07T21:56:44Z",
-      "updatedAt": "2026-07-09T01:02:54Z",
+      "pushedAt": "2026-07-09T22:13:48Z",
+      "updatedAt": "2026-07-10T05:45:14Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2176,14 +2176,14 @@
       "owner": "tradesdontlie",
       "url": "https://github.com/tradesdontlie/tradingview-mcp",
       "description": "AI-assisted TradingView chart analysis connect Claude Code to your TradingView Desktop for personal workflow automation",
-      "stars": 4259,
-      "forks": 2031,
-      "openIssues": 101,
+      "stars": 4285,
+      "forks": 2039,
+      "openIssues": 105,
       "language": "JavaScript",
       "topics": [],
       "license": "NOASSERTION",
       "pushedAt": "2026-07-06T15:01:58Z",
-      "updatedAt": "2026-07-09T06:23:51Z",
+      "updatedAt": "2026-07-10T05:43:56Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2194,7 +2194,7 @@
       "owner": "pipeshub-ai",
       "url": "https://github.com/pipeshub-ai/pipeshub-ai",
       "description": "PipesHub is a fully extensible and explainable workplace AI platform for enterprise search and workflow automation",
-      "stars": 3010,
+      "stars": 3013,
       "forks": 469,
       "openIssues": 92,
       "language": "Python",
@@ -2217,8 +2217,8 @@
         "slack"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-07-09T06:07:20Z",
-      "updatedAt": "2026-07-09T06:07:23Z",
+      "pushedAt": "2026-07-10T05:59:12Z",
+      "updatedAt": "2026-07-10T00:20:52Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2229,9 +2229,9 @@
       "owner": "labring",
       "url": "https://github.com/labring/FastGPT",
       "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
-      "stars": 28878,
-      "forks": 7209,
-      "openIssues": 155,
+      "stars": 28897,
+      "forks": 7212,
+      "openIssues": 156,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -2246,8 +2246,8 @@
         "workflow"
       ],
       "license": "NOASSERTION",
-      "pushedAt": "2026-07-09T05:07:56Z",
-      "updatedAt": "2026-07-09T06:02:29Z",
+      "pushedAt": "2026-07-09T10:06:15Z",
+      "updatedAt": "2026-07-10T06:41:18Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2258,9 +2258,9 @@
       "owner": "dapr",
       "url": "https://github.com/dapr/dapr",
       "description": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.",
-      "stars": 25918,
-      "forks": 2098,
-      "openIssues": 392,
+      "stars": 25920,
+      "forks": 2100,
+      "openIssues": 398,
       "language": "Go",
       "topics": [
         "containers",
@@ -2274,8 +2274,8 @@
         "state-management"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-07-07T21:50:33Z",
-      "updatedAt": "2026-07-09T01:08:57Z",
+      "pushedAt": "2026-07-09T20:17:51Z",
+      "updatedAt": "2026-07-10T05:39:15Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2286,9 +2286,9 @@
       "owner": "inngest",
       "url": "https://github.com/inngest/inngest",
       "description": "The leading workflow orchestration platform. Run stateful step functions and AI workflows on serverless, servers, or the edge.",
-      "stars": 5579,
+      "stars": 5581,
       "forks": 326,
-      "openIssues": 224,
+      "openIssues": 226,
       "language": "Go",
       "topics": [
         "cli",
@@ -2301,8 +2301,8 @@
         "workflows"
       ],
       "license": "NOASSERTION",
-      "pushedAt": "2026-07-09T06:45:42Z",
-      "updatedAt": "2026-07-09T03:04:17Z",
+      "pushedAt": "2026-07-10T04:43:52Z",
+      "updatedAt": "2026-07-10T04:44:09Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2313,7 +2313,7 @@
       "owner": "Netflix",
       "url": "https://github.com/Netflix/maestro",
       "description": "Maestro: Netflixs Workflow Orchestrator",
-      "stars": 3798,
+      "stars": 3799,
       "forks": 295,
       "openIssues": 32,
       "language": "Java",
@@ -2341,7 +2341,7 @@
       ],
       "license": "Apache-2.0",
       "pushedAt": "2026-07-02T22:10:28Z",
-      "updatedAt": "2026-07-08T17:28:57Z",
+      "updatedAt": "2026-07-10T05:00:28Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2354,7 +2354,7 @@
       "description": "Open-source Infrastructure as Code (IaC) orchestration platform: GitOps workflows, orchestration, code generation, observability, drift detection, asset management, policies, Slack notifications, and more. Integrates with Terraform, OpenTofu, Terragrunt, Kubernetes, GitHub Actions, GitLab CI/CD, BitBucket Pipelines, and any other CI/CD platform.",
       "stars": 3607,
       "forks": 124,
-      "openIssues": 101,
+      "openIssues": 100,
       "language": "Go",
       "topics": [],
       "license": "MPL-2.0",
