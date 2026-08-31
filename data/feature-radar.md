@@ -4,9 +4,9 @@ This project is optimized for feature search, not generic project search.
 Each feature keeps its own GitHub queries, relevance signals, ranked references,
 and local evidence so AgentTestBench CLI work can start from mature OSS patterns.
 
-Generated at: 2026-08-30T09:10:36.009Z
+Generated at: 2026-08-31T09:39:57.803Z
 Policy: stars >= 3000, pushed in the last 3 months, non-archived, non-fork.
-Cutoff: 2026-05-30
+Cutoff: 2026-05-31
 
 ## CLI Command UX
 
@@ -16,11 +16,11 @@ Feature id: `cli-command-ux`
 
 | Reference | Feature score | Stars | Last push | Matched terms | Evidence reasons |
 | --- | ---: | ---: | --- | --- | --- |
-| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 5 | 187825 | 2026-08-29 | seed:yt-dlp/yt-dlp | high-star reference; matches 'cli'; matches 'command'; topic 'cli' |
-| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | 5 | 106746 | 2026-08-30 | seed:google-gemini/gemini-cli | high-star reference; matches 'cli'; matches 'terminal'; topic 'cli' |
-| [junegunn/fzf](https://github.com/junegunn/fzf) | 5 | 82727 | 2026-08-26 | seed:junegunn/fzf | high-star reference; matches 'cli'; matches 'command'; topic 'cli' |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 5 | 188051 | 2026-08-30 | seed:yt-dlp/yt-dlp | high-star reference; matches 'cli'; matches 'command'; topic 'cli' |
+| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | 5 | 106750 | 2026-08-31 | seed:google-gemini/gemini-cli | high-star reference; matches 'cli'; matches 'terminal'; topic 'cli' |
+| [junegunn/fzf](https://github.com/junegunn/fzf) | 5 | 82740 | 2026-08-26 | seed:junegunn/fzf | high-star reference; matches 'cli'; matches 'command'; topic 'cli' |
 | [microsoft/winget-cli](https://github.com/microsoft/winget-cli) | 5 | 26370 | 2026-08-26 | cli command | high-star reference; matches 'cli command'; matches 'cli'; matches 'command' |
-| [simulot/immich-go](https://github.com/simulot/immich-go) | 4 | 6788 | 2026-06-25 | cli command | matches 'cli command'; matches 'cli'; matches 'command' |
+| [simulot/immich-go](https://github.com/simulot/immich-go) | 4 | 6795 | 2026-06-25 | cli command | matches 'cli command'; matches 'cli'; matches 'command' |
 ## API Test Runner
 
 Find projects that run API tests, collections, suites, or browser/API automation with reproducible reports.
@@ -29,10 +29,10 @@ Feature id: `api-test-runner`
 
 | Reference | Feature score | Stars | Last push | Matched terms | Evidence reasons |
 | --- | ---: | ---: | --- | --- | --- |
-| [karatelabs/karate](https://github.com/karatelabs/karate) | 9 | 8931 | 2026-08-29 | test automation | matches 'api'; matches 'automation'; matches 'test automation'; matches 'testing'; topic 'automation'; topic 'testing' |
-| [microsoft/playwright](https://github.com/microsoft/playwright) | 8 | 95367 | 2026-08-29 | seed:microsoft/playwright | high-star reference; matches 'api'; matches 'automation'; matches 'testing'; topic 'automation'; topic 'testing' |
-| [usebruno/bruno](https://github.com/usebruno/bruno) | 8 | 46642 | 2026-08-28 | seed:usebruno/bruno | high-star reference; matches 'api'; matches 'automation'; matches 'testing'; topic 'automation'; topic 'testing' |
-| [robotframework/robotframework](https://github.com/robotframework/robotframework) | 7 | 11850 | 2026-08-28 | seed:robotframework/robotframework | high-star reference; matches 'automation'; matches 'testing'; topic 'automation'; topic 'testing' |
+| [karatelabs/karate](https://github.com/karatelabs/karate) | 9 | 8932 | 2026-08-31 | test automation | matches 'api'; matches 'automation'; matches 'test automation'; matches 'testing'; topic 'automation'; topic 'testing' |
+| [microsoft/playwright](https://github.com/microsoft/playwright) | 8 | 95412 | 2026-08-30 | seed:microsoft/playwright | high-star reference; matches 'api'; matches 'automation'; matches 'testing'; topic 'automation'; topic 'testing' |
+| [usebruno/bruno](https://github.com/usebruno/bruno) | 8 | 46660 | 2026-08-31 | seed:usebruno/bruno | high-star reference; matches 'api'; matches 'automation'; matches 'testing'; topic 'automation'; topic 'testing' |
+| [robotframework/robotframework](https://github.com/robotframework/robotframework) | 7 | 11851 | 2026-08-30 | seed:robotframework/robotframework | high-star reference; matches 'automation'; matches 'testing'; topic 'automation'; topic 'testing' |
 | [getgauge/gauge](https://github.com/getgauge/gauge) | 4 | 3186 | 2026-08-21 | test automation | matches 'automation'; matches 'test automation'; matches 'testing' |
 ## Workflow Orchestration
 
@@ -42,20 +42,20 @@ Feature id: `workflow-orchestration`
 
 | Reference | Feature score | Stars | Last push | Matched terms | Evidence reasons |
 | --- | ---: | ---: | --- | --- | --- |
-| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 22 | 23719 | 2026-08-30 | seed:PrefectHQ/prefect, workflow orchestration | high-star reference; matches 'automation'; matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow'; topic 'automation'; topic 'orchestration'; topic 'workflow' |
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 16 | 202832 | 2026-08-30 | seed:n8n-io/n8n, workflow automation | high-star reference; matches 'automation'; matches 'workflow automation'; matches 'workflow'; topic 'automation'; topic 'workflow' |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 22 | 23729 | 2026-08-30 | seed:PrefectHQ/prefect, workflow orchestration | high-star reference; matches 'automation'; matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow'; topic 'automation'; topic 'orchestration'; topic 'workflow' |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 16 | 202934 | 2026-08-31 | seed:n8n-io/n8n, workflow automation | high-star reference; matches 'automation'; matches 'workflow automation'; matches 'workflow'; topic 'automation'; topic 'workflow' |
 | [Netflix/maestro](https://github.com/Netflix/maestro) | 14 | 3831 | 2026-08-26 | workflow orchestration | matches 'automation'; matches 'orchestration'; matches 'scheduler'; matches 'workflow orchestration'; matches 'workflow'; topic 'automation'; topic 'orchestration'; topic 'scheduler'; topic 'workflow' |
-| [apache/airflow](https://github.com/apache/airflow) | 13 | 46647 | 2026-08-30 | seed:apache/airflow | high-star reference; matches 'automation'; matches 'orchestration'; matches 'scheduler'; matches 'workflow'; topic 'automation'; topic 'orchestration'; topic 'scheduler'; topic 'workflow' |
-| [labring/FastGPT](https://github.com/labring/FastGPT) | 7 | 29498 | 2026-08-30 | workflow orchestration | high-star reference; matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow'; topic 'workflow' |
-| [activepieces/activepieces](https://github.com/activepieces/activepieces) | 7 | 24108 | 2026-08-30 | workflow automation | high-star reference; matches 'automation'; matches 'workflow automation'; matches 'workflow'; topic 'workflow' |
-| [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | 7 | 3073 | 2026-08-29 | workflow orchestration | matches 'automation'; matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow'; topic 'automation' |
-| [dagucloud/dagu](https://github.com/dagucloud/dagu) | 6 | 3820 | 2026-08-30 | workflow orchestration | matches 'automation'; matches 'orchestration'; matches 'scheduler'; matches 'workflow orchestration'; matches 'workflow' |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 5 | 47531 | 2026-08-30 | workflow automation | high-star reference; matches 'automation'; matches 'workflow automation'; matches 'workflow' |
-| [dapr/dapr](https://github.com/dapr/dapr) | 5 | 26052 | 2026-08-28 | workflow orchestration | high-star reference; matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow' |
-| [pipeshub-ai/pipeshub-ai](https://github.com/pipeshub-ai/pipeshub-ai) | 5 | 3697 | 2026-08-30 | workflow automation | matches 'automation'; matches 'graph'; matches 'workflow automation'; matches 'workflow' |
-| [tradesdontlie/tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp) | 4 | 5919 | 2026-07-28 | workflow automation | matches 'automation'; matches 'workflow automation'; matches 'workflow' |
-| [inngest/inngest](https://github.com/inngest/inngest) | 4 | 5785 | 2026-08-29 | workflow orchestration | matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow' |
-| [ageerle/ruoyi-ai](https://github.com/ageerle/ruoyi-ai) | 4 | 5672 | 2026-08-16 | workflow orchestration | matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow' |
+| [apache/airflow](https://github.com/apache/airflow) | 13 | 46662 | 2026-08-31 | seed:apache/airflow | high-star reference; matches 'automation'; matches 'orchestration'; matches 'scheduler'; matches 'workflow'; topic 'automation'; topic 'orchestration'; topic 'scheduler'; topic 'workflow' |
+| [labring/FastGPT](https://github.com/labring/FastGPT) | 7 | 29517 | 2026-08-31 | workflow orchestration | high-star reference; matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow'; topic 'workflow' |
+| [activepieces/activepieces](https://github.com/activepieces/activepieces) | 7 | 24141 | 2026-08-31 | workflow automation | high-star reference; matches 'automation'; matches 'workflow automation'; matches 'workflow'; topic 'workflow' |
+| [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | 7 | 3098 | 2026-08-31 | workflow orchestration | matches 'automation'; matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow'; topic 'automation' |
+| [dagucloud/dagu](https://github.com/dagucloud/dagu) | 6 | 3824 | 2026-08-31 | workflow orchestration | matches 'automation'; matches 'orchestration'; matches 'scheduler'; matches 'workflow orchestration'; matches 'workflow' |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 5 | 47560 | 2026-08-31 | workflow automation | high-star reference; matches 'automation'; matches 'workflow automation'; matches 'workflow' |
+| [dapr/dapr](https://github.com/dapr/dapr) | 5 | 26055 | 2026-08-28 | workflow orchestration | high-star reference; matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow' |
+| [pipeshub-ai/pipeshub-ai](https://github.com/pipeshub-ai/pipeshub-ai) | 5 | 3698 | 2026-08-31 | workflow automation | matches 'automation'; matches 'graph'; matches 'workflow automation'; matches 'workflow' |
+| [tradesdontlie/tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp) | 4 | 5930 | 2026-07-28 | workflow automation | matches 'automation'; matches 'workflow automation'; matches 'workflow' |
+| [inngest/inngest](https://github.com/inngest/inngest) | 4 | 5792 | 2026-08-31 | workflow orchestration | matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow' |
+| [ageerle/ruoyi-ai](https://github.com/ageerle/ruoyi-ai) | 4 | 5673 | 2026-08-16 | workflow orchestration | matches 'orchestration'; matches 'workflow orchestration'; matches 'workflow' |
 | [terramate-io/terramate](https://github.com/terramate-io/terramate) | 2 | 3621 | 2026-08-27 | workflow orchestration | matches 'orchestration'; matches 'workflow' |
 ## Evidence Diagnosis
 
@@ -65,9 +65,9 @@ Feature id: `evidence-diagnosis`
 
 | Reference | Feature score | Stars | Last push | Matched terms | Evidence reasons |
 | --- | ---: | ---: | --- | --- | --- |
-| [SigNoz/signoz](https://github.com/SigNoz/signoz) | 5 | 31975 | 2026-08-30 | seed:SigNoz/signoz | high-star reference; matches 'observability'; matches 'trace'; topic 'observability' |
-| [apache/skywalking](https://github.com/apache/skywalking) | 4 | 24935 | 2026-08-26 | seed:apache/skywalking | high-star reference; matches 'observability'; topic 'observability' |
-| [grafana/grafana](https://github.com/grafana/grafana) | 3 | 76497 | 2026-08-30 | seed:grafana/grafana | high-star reference; matches 'observability'; matches 'trace' |
+| [SigNoz/signoz](https://github.com/SigNoz/signoz) | 5 | 31977 | 2026-08-31 | seed:SigNoz/signoz | high-star reference; matches 'observability'; matches 'trace'; topic 'observability' |
+| [apache/skywalking](https://github.com/apache/skywalking) | 4 | 24936 | 2026-08-26 | seed:apache/skywalking | high-star reference; matches 'observability'; topic 'observability' |
+| [grafana/grafana](https://github.com/grafana/grafana) | 3 | 76531 | 2026-08-31 | seed:grafana/grafana | high-star reference; matches 'observability'; matches 'trace' |
 ## Quality Gates
 
 Find projects that gate releases or CI runs with quality reports, coverage, policy checks, and actionable summaries.
@@ -76,11 +76,11 @@ Feature id: `quality-gates`
 
 | Reference | Feature score | Stars | Last push | Matched terms | Evidence reasons |
 | --- | ---: | ---: | --- | --- | --- |
-| [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 6 | 14503 | 2026-08-29 | quality gate | high-star reference; matches 'ci'; matches 'gate'; matches 'quality gate'; matches 'quality' |
-| [SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) | 6 | 10938 | 2026-08-28 | seed:sonarsource/sonarqube | high-star reference; matches 'quality'; matches 'static analysis'; topic 'static-analysis' |
-| [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | 5 | 37693 | 2026-08-28 | seed:aquasecurity/trivy | high-star reference; matches 'scan'; matches 'security'; topic 'security' |
-| [semgrep/semgrep](https://github.com/semgrep/semgrep) | 5 | 16441 | 2026-08-28 | seed:semgrep/semgrep | high-star reference; matches 'static analysis'; topic 'static-analysis' |
-| [ossf/scorecard](https://github.com/ossf/scorecard) | 4 | 5660 | 2026-08-24 | seed:ossf/scorecard | matches 'scorecard'; matches 'security'; topic 'scorecard' |
+| [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 6 | 14639 | 2026-08-31 | quality gate | high-star reference; matches 'ci'; matches 'gate'; matches 'quality gate'; matches 'quality' |
+| [SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) | 6 | 10941 | 2026-08-28 | seed:sonarsource/sonarqube | high-star reference; matches 'quality'; matches 'static analysis'; topic 'static-analysis' |
+| [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | 5 | 37709 | 2026-08-28 | seed:aquasecurity/trivy | high-star reference; matches 'scan'; matches 'security'; topic 'security' |
+| [semgrep/semgrep](https://github.com/semgrep/semgrep) | 5 | 16453 | 2026-08-31 | seed:semgrep/semgrep | high-star reference; matches 'static analysis'; topic 'static-analysis' |
+| [ossf/scorecard](https://github.com/ossf/scorecard) | 4 | 5662 | 2026-08-31 | seed:ossf/scorecard | matches 'scorecard'; matches 'security'; topic 'scorecard' |
 ## GitHub Radar Generation
 
 Find projects that continuously generate GitHub rankings, star histories, or static indexes from GitHub metadata.
@@ -89,9 +89,9 @@ Feature id: `github-radar-generation`
 
 | Reference | Feature score | Stars | Last push | Matched terms | Evidence reasons |
 | --- | ---: | ---: | --- | --- | --- |
-| [EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking) | 20 | 12024 | 2026-08-30 | github ranking, seed:EvanLi/Github-Ranking | high-star reference; matches 'daily'; matches 'github ranking'; matches 'github'; matches 'ranking'; matches 'stars'; topic 'ranking'; topic 'stars' |
-| [star-history/star-history](https://github.com/star-history/star-history) | 14 | 9438 | 2026-08-15 | seed:star-history/star-history, star history | matches 'github'; matches 'history'; matches 'star history'; topic 'github'; topic 'history' |
-| [gayanvoice/top-github-users](https://github.com/gayanvoice/top-github-users) | 2 | 4887 | 2026-08-30 | seed:gayanvoice/top-github-users | matches 'github'; matches 'ranking' |
+| [EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking) | 20 | 12037 | 2026-08-31 | github ranking, seed:EvanLi/Github-Ranking | high-star reference; matches 'daily'; matches 'github ranking'; matches 'github'; matches 'ranking'; matches 'stars'; topic 'ranking'; topic 'stars' |
+| [star-history/star-history](https://github.com/star-history/star-history) | 14 | 9439 | 2026-08-15 | seed:star-history/star-history, star history | matches 'github'; matches 'history'; matches 'star history'; topic 'github'; topic 'history' |
+| [gayanvoice/top-github-users](https://github.com/gayanvoice/top-github-users) | 2 | 4885 | 2026-08-31 | seed:gayanvoice/top-github-users | matches 'github'; matches 'ranking' |
 
 ## Secondary Project Ledger
 
