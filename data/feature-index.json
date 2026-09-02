@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T08:35:26.372Z",
-  "sourceGeneratedAt": "2026-09-01T08:35:17.199Z",
+  "generatedAt": "2026-09-02T07:52:14.677Z",
+  "sourceGeneratedAt": "2026-09-02T07:52:05.576Z",
   "policy": {
     "minStars": 3000,
     "months": 3,
-    "pushedAfter": "2026-06-01",
+    "pushedAfter": "2026-06-02",
     "qualifiers": [
       "stars >= 3000",
-      "pushed_at >= 2026-06-01",
+      "pushed_at >= 2026-06-02",
       "archived == false",
       "fork == false"
     ]
@@ -460,7 +460,7 @@
         {
           "fullName": "yt-dlp/yt-dlp",
           "url": "https://github.com/yt-dlp/yt-dlp",
-          "stars": 188233,
+          "stars": 188441,
           "pushedAt": "2026-08-30T13:58:45Z",
           "featureScore": 5,
           "reasons": [
@@ -473,8 +473,8 @@
         {
           "fullName": "google-gemini/gemini-cli",
           "url": "https://github.com/google-gemini/gemini-cli",
-          "stars": 106757,
-          "pushedAt": "2026-09-01T01:33:41Z",
+          "stars": 106764,
+          "pushedAt": "2026-09-02T01:29:09Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -486,7 +486,7 @@
         {
           "fullName": "junegunn/fzf",
           "url": "https://github.com/junegunn/fzf",
-          "stars": 82764,
+          "stars": 82778,
           "pushedAt": "2026-08-31T10:09:46Z",
           "featureScore": 5,
           "reasons": [
@@ -499,8 +499,8 @@
         {
           "fullName": "microsoft/winget-cli",
           "url": "https://github.com/microsoft/winget-cli",
-          "stars": 26373,
-          "pushedAt": "2026-08-26T20:28:25Z",
+          "stars": 26375,
+          "pushedAt": "2026-09-01T23:55:16Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -512,7 +512,7 @@
         {
           "fullName": "simulot/immich-go",
           "url": "https://github.com/simulot/immich-go",
-          "stars": 6802,
+          "stars": 6812,
           "pushedAt": "2026-06-25T10:34:46Z",
           "featureScore": 4,
           "reasons": [
@@ -526,7 +526,7 @@
         {
           "fullName": "yt-dlp/yt-dlp",
           "url": "https://github.com/yt-dlp/yt-dlp",
-          "stars": 188233,
+          "stars": 188441,
           "pushedAt": "2026-08-30T13:58:45Z",
           "featureScore": 5,
           "reasons": [
@@ -539,8 +539,8 @@
         {
           "fullName": "google-gemini/gemini-cli",
           "url": "https://github.com/google-gemini/gemini-cli",
-          "stars": 106757,
-          "pushedAt": "2026-09-01T01:33:41Z",
+          "stars": 106764,
+          "pushedAt": "2026-09-02T01:29:09Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -552,7 +552,7 @@
         {
           "fullName": "junegunn/fzf",
           "url": "https://github.com/junegunn/fzf",
-          "stars": 82764,
+          "stars": 82778,
           "pushedAt": "2026-08-31T10:09:46Z",
           "featureScore": 5,
           "reasons": [
@@ -565,8 +565,8 @@
         {
           "fullName": "microsoft/winget-cli",
           "url": "https://github.com/microsoft/winget-cli",
-          "stars": 26373,
-          "pushedAt": "2026-08-26T20:28:25Z",
+          "stars": 26375,
+          "pushedAt": "2026-09-01T23:55:16Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -578,7 +578,7 @@
         {
           "fullName": "simulot/immich-go",
           "url": "https://github.com/simulot/immich-go",
-          "stars": 6802,
+          "stars": 6812,
           "pushedAt": "2026-06-25T10:34:46Z",
           "featureScore": 4,
           "reasons": [
@@ -618,8 +618,8 @@
         {
           "fullName": "karatelabs/karate",
           "url": "https://github.com/karatelabs/karate",
-          "stars": 8933,
-          "pushedAt": "2026-09-01T08:05:54Z",
+          "stars": 8936,
+          "pushedAt": "2026-09-02T05:43:56Z",
           "featureScore": 9,
           "reasons": [
             "matches 'api'",
@@ -633,8 +633,8 @@
         {
           "fullName": "microsoft/playwright",
           "url": "https://github.com/microsoft/playwright",
-          "stars": 95461,
-          "pushedAt": "2026-08-31T10:15:28Z",
+          "stars": 95515,
+          "pushedAt": "2026-09-02T07:39:17Z",
           "featureScore": 8,
           "reasons": [
             "high-star reference",
@@ -648,8 +648,8 @@
         {
           "fullName": "usebruno/bruno",
           "url": "https://github.com/usebruno/bruno",
-          "stars": 46679,
-          "pushedAt": "2026-09-01T08:22:35Z",
+          "stars": 46702,
+          "pushedAt": "2026-09-02T06:38:30Z",
           "featureScore": 8,
           "reasons": [
             "high-star reference",
@@ -663,8 +663,8 @@
         {
           "fullName": "robotframework/robotframework",
           "url": "https://github.com/robotframework/robotframework",
-          "stars": 11852,
-          "pushedAt": "2026-08-31T22:27:07Z",
+          "stars": 11857,
+          "pushedAt": "2026-09-01T15:16:23Z",
           "featureScore": 7,
           "reasons": [
             "high-star reference",
@@ -678,7 +678,7 @@
           "fullName": "getgauge/gauge",
           "url": "https://github.com/getgauge/gauge",
           "stars": 3186,
-          "pushedAt": "2026-08-21T10:50:50Z",
+          "pushedAt": "2026-09-02T02:32:53Z",
           "featureScore": 4,
           "reasons": [
             "matches 'automation'",
@@ -691,8 +691,8 @@
         {
           "fullName": "karatelabs/karate",
           "url": "https://github.com/karatelabs/karate",
-          "stars": 8933,
-          "pushedAt": "2026-09-01T08:05:54Z",
+          "stars": 8936,
+          "pushedAt": "2026-09-02T05:43:56Z",
           "featureScore": 9,
           "reasons": [
             "matches 'api'",
@@ -706,8 +706,8 @@
         {
           "fullName": "microsoft/playwright",
           "url": "https://github.com/microsoft/playwright",
-          "stars": 95461,
-          "pushedAt": "2026-08-31T10:15:28Z",
+          "stars": 95515,
+          "pushedAt": "2026-09-02T07:39:17Z",
           "featureScore": 8,
           "reasons": [
             "high-star reference",
@@ -721,8 +721,8 @@
         {
           "fullName": "usebruno/bruno",
           "url": "https://github.com/usebruno/bruno",
-          "stars": 46679,
-          "pushedAt": "2026-09-01T08:22:35Z",
+          "stars": 46702,
+          "pushedAt": "2026-09-02T06:38:30Z",
           "featureScore": 8,
           "reasons": [
             "high-star reference",
@@ -736,8 +736,8 @@
         {
           "fullName": "robotframework/robotframework",
           "url": "https://github.com/robotframework/robotframework",
-          "stars": 11852,
-          "pushedAt": "2026-08-31T22:27:07Z",
+          "stars": 11857,
+          "pushedAt": "2026-09-01T15:16:23Z",
           "featureScore": 7,
           "reasons": [
             "high-star reference",
@@ -751,7 +751,7 @@
           "fullName": "getgauge/gauge",
           "url": "https://github.com/getgauge/gauge",
           "stars": 3186,
-          "pushedAt": "2026-08-21T10:50:50Z",
+          "pushedAt": "2026-09-02T02:32:53Z",
           "featureScore": 4,
           "reasons": [
             "matches 'automation'",
@@ -788,8 +788,8 @@
         {
           "fullName": "PrefectHQ/prefect",
           "url": "https://github.com/PrefectHQ/prefect",
-          "stars": 23746,
-          "pushedAt": "2026-09-01T08:20:29Z",
+          "stars": 23761,
+          "pushedAt": "2026-09-02T03:14:36Z",
           "featureScore": 22,
           "reasons": [
             "high-star reference",
@@ -805,8 +805,8 @@
         {
           "fullName": "n8n-io/n8n",
           "url": "https://github.com/n8n-io/n8n",
-          "stars": 202995,
-          "pushedAt": "2026-09-01T08:35:01Z",
+          "stars": 203092,
+          "pushedAt": "2026-09-02T07:51:43Z",
           "featureScore": 16,
           "reasons": [
             "high-star reference",
@@ -821,7 +821,7 @@
           "fullName": "Netflix/maestro",
           "url": "https://github.com/Netflix/maestro",
           "stars": 3831,
-          "pushedAt": "2026-08-26T17:54:39Z",
+          "pushedAt": "2026-09-02T06:58:32Z",
           "featureScore": 14,
           "reasons": [
             "matches 'automation'",
@@ -838,8 +838,8 @@
         {
           "fullName": "apache/airflow",
           "url": "https://github.com/apache/airflow",
-          "stars": 46676,
-          "pushedAt": "2026-09-01T08:22:10Z",
+          "stars": 46691,
+          "pushedAt": "2026-09-02T06:37:40Z",
           "featureScore": 13,
           "reasons": [
             "high-star reference",
@@ -856,8 +856,8 @@
         {
           "fullName": "labring/FastGPT",
           "url": "https://github.com/labring/FastGPT",
-          "stars": 29526,
-          "pushedAt": "2026-09-01T07:56:55Z",
+          "stars": 29540,
+          "pushedAt": "2026-09-02T06:13:44Z",
           "featureScore": 7,
           "reasons": [
             "high-star reference",
@@ -870,8 +870,8 @@
         {
           "fullName": "activepieces/activepieces",
           "url": "https://github.com/activepieces/activepieces",
-          "stars": 24159,
-          "pushedAt": "2026-09-01T08:33:09Z",
+          "stars": 24181,
+          "pushedAt": "2026-09-02T06:38:42Z",
           "featureScore": 7,
           "reasons": [
             "high-star reference",
@@ -884,7 +884,7 @@
         {
           "fullName": "foryourhealth111-pixel/Vibe-Skills",
           "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
-          "stars": 3110,
+          "stars": 3125,
           "pushedAt": "2026-08-31T13:52:09Z",
           "featureScore": 7,
           "reasons": [
@@ -898,8 +898,8 @@
         {
           "fullName": "dagucloud/dagu",
           "url": "https://github.com/dagucloud/dagu",
-          "stars": 3829,
-          "pushedAt": "2026-09-01T07:42:08Z",
+          "stars": 3831,
+          "pushedAt": "2026-09-02T07:38:05Z",
           "featureScore": 6,
           "reasons": [
             "matches 'automation'",
@@ -912,8 +912,8 @@
         {
           "fullName": "HKUDS/nanobot",
           "url": "https://github.com/HKUDS/nanobot",
-          "stars": 47594,
-          "pushedAt": "2026-09-01T08:21:18Z",
+          "stars": 47635,
+          "pushedAt": "2026-09-02T07:35:52Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -925,8 +925,8 @@
         {
           "fullName": "dapr/dapr",
           "url": "https://github.com/dapr/dapr",
-          "stars": 26055,
-          "pushedAt": "2026-08-28T20:57:00Z",
+          "stars": 26057,
+          "pushedAt": "2026-09-01T22:16:21Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -938,8 +938,8 @@
         {
           "fullName": "pipeshub-ai/pipeshub-ai",
           "url": "https://github.com/pipeshub-ai/pipeshub-ai",
-          "stars": 3700,
-          "pushedAt": "2026-09-01T07:44:49Z",
+          "stars": 3703,
+          "pushedAt": "2026-09-02T07:51:17Z",
           "featureScore": 5,
           "reasons": [
             "matches 'automation'",
@@ -951,7 +951,7 @@
         {
           "fullName": "tradesdontlie/tradingview-mcp",
           "url": "https://github.com/tradesdontlie/tradingview-mcp",
-          "stars": 5945,
+          "stars": 5960,
           "pushedAt": "2026-07-28T17:28:37Z",
           "featureScore": 4,
           "reasons": [
@@ -963,8 +963,8 @@
         {
           "fullName": "inngest/inngest",
           "url": "https://github.com/inngest/inngest",
-          "stars": 5796,
-          "pushedAt": "2026-08-31T22:05:34Z",
+          "stars": 5801,
+          "pushedAt": "2026-09-02T07:46:19Z",
           "featureScore": 4,
           "reasons": [
             "matches 'orchestration'",
@@ -975,7 +975,7 @@
         {
           "fullName": "ageerle/ruoyi-ai",
           "url": "https://github.com/ageerle/ruoyi-ai",
-          "stars": 5674,
+          "stars": 5681,
           "pushedAt": "2026-08-16T12:58:53Z",
           "featureScore": 4,
           "reasons": [
@@ -987,8 +987,8 @@
         {
           "fullName": "terramate-io/terramate",
           "url": "https://github.com/terramate-io/terramate",
-          "stars": 3621,
-          "pushedAt": "2026-08-31T14:30:11Z",
+          "stars": 3623,
+          "pushedAt": "2026-09-01T14:31:21Z",
           "featureScore": 2,
           "reasons": [
             "matches 'orchestration'",
@@ -1000,8 +1000,8 @@
         {
           "fullName": "PrefectHQ/prefect",
           "url": "https://github.com/PrefectHQ/prefect",
-          "stars": 23746,
-          "pushedAt": "2026-09-01T08:20:29Z",
+          "stars": 23761,
+          "pushedAt": "2026-09-02T03:14:36Z",
           "featureScore": 22,
           "reasons": [
             "high-star reference",
@@ -1017,8 +1017,8 @@
         {
           "fullName": "n8n-io/n8n",
           "url": "https://github.com/n8n-io/n8n",
-          "stars": 202995,
-          "pushedAt": "2026-09-01T08:35:01Z",
+          "stars": 203092,
+          "pushedAt": "2026-09-02T07:51:43Z",
           "featureScore": 16,
           "reasons": [
             "high-star reference",
@@ -1033,7 +1033,7 @@
           "fullName": "Netflix/maestro",
           "url": "https://github.com/Netflix/maestro",
           "stars": 3831,
-          "pushedAt": "2026-08-26T17:54:39Z",
+          "pushedAt": "2026-09-02T06:58:32Z",
           "featureScore": 14,
           "reasons": [
             "matches 'automation'",
@@ -1050,8 +1050,8 @@
         {
           "fullName": "apache/airflow",
           "url": "https://github.com/apache/airflow",
-          "stars": 46676,
-          "pushedAt": "2026-09-01T08:22:10Z",
+          "stars": 46691,
+          "pushedAt": "2026-09-02T06:37:40Z",
           "featureScore": 13,
           "reasons": [
             "high-star reference",
@@ -1068,8 +1068,8 @@
         {
           "fullName": "labring/FastGPT",
           "url": "https://github.com/labring/FastGPT",
-          "stars": 29526,
-          "pushedAt": "2026-09-01T07:56:55Z",
+          "stars": 29540,
+          "pushedAt": "2026-09-02T06:13:44Z",
           "featureScore": 7,
           "reasons": [
             "high-star reference",
@@ -1110,8 +1110,8 @@
         {
           "fullName": "SigNoz/signoz",
           "url": "https://github.com/SigNoz/signoz",
-          "stars": 31987,
-          "pushedAt": "2026-09-01T08:19:16Z",
+          "stars": 31994,
+          "pushedAt": "2026-09-02T07:29:27Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -1135,8 +1135,8 @@
         {
           "fullName": "grafana/grafana",
           "url": "https://github.com/grafana/grafana",
-          "stars": 76537,
-          "pushedAt": "2026-09-01T08:19:33Z",
+          "stars": 76556,
+          "pushedAt": "2026-09-02T07:32:32Z",
           "featureScore": 3,
           "reasons": [
             "high-star reference",
@@ -1149,8 +1149,8 @@
         {
           "fullName": "SigNoz/signoz",
           "url": "https://github.com/SigNoz/signoz",
-          "stars": 31987,
-          "pushedAt": "2026-09-01T08:19:16Z",
+          "stars": 31994,
+          "pushedAt": "2026-09-02T07:29:27Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -1174,8 +1174,8 @@
         {
           "fullName": "grafana/grafana",
           "url": "https://github.com/grafana/grafana",
-          "stars": 76537,
-          "pushedAt": "2026-09-01T08:19:33Z",
+          "stars": 76556,
+          "pushedAt": "2026-09-02T07:32:32Z",
           "featureScore": 3,
           "reasons": [
             "high-star reference",
@@ -1217,8 +1217,8 @@
         {
           "fullName": "img2threejs/img2threejs",
           "url": "https://github.com/img2threejs/img2threejs",
-          "stars": 14802,
-          "pushedAt": "2026-08-31T09:28:46Z",
+          "stars": 14948,
+          "pushedAt": "2026-09-02T07:34:35Z",
           "featureScore": 6,
           "reasons": [
             "high-star reference",
@@ -1231,8 +1231,8 @@
         {
           "fullName": "SonarSource/sonarqube",
           "url": "https://github.com/SonarSource/sonarqube",
-          "stars": 10944,
-          "pushedAt": "2026-08-28T22:00:03Z",
+          "stars": 10946,
+          "pushedAt": "2026-09-01T20:08:52Z",
           "featureScore": 6,
           "reasons": [
             "high-star reference",
@@ -1244,8 +1244,8 @@
         {
           "fullName": "aquasecurity/trivy",
           "url": "https://github.com/aquasecurity/trivy",
-          "stars": 37724,
-          "pushedAt": "2026-08-28T12:50:22Z",
+          "stars": 37738,
+          "pushedAt": "2026-09-01T14:51:04Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -1257,8 +1257,8 @@
         {
           "fullName": "semgrep/semgrep",
           "url": "https://github.com/semgrep/semgrep",
-          "stars": 16459,
-          "pushedAt": "2026-09-01T00:08:31Z",
+          "stars": 16468,
+          "pushedAt": "2026-09-01T19:51:53Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -1269,7 +1269,7 @@
         {
           "fullName": "ossf/scorecard",
           "url": "https://github.com/ossf/scorecard",
-          "stars": 5662,
+          "stars": 5664,
           "pushedAt": "2026-08-31T08:24:20Z",
           "featureScore": 4,
           "reasons": [
@@ -1283,8 +1283,8 @@
         {
           "fullName": "img2threejs/img2threejs",
           "url": "https://github.com/img2threejs/img2threejs",
-          "stars": 14802,
-          "pushedAt": "2026-08-31T09:28:46Z",
+          "stars": 14948,
+          "pushedAt": "2026-09-02T07:34:35Z",
           "featureScore": 6,
           "reasons": [
             "high-star reference",
@@ -1297,8 +1297,8 @@
         {
           "fullName": "SonarSource/sonarqube",
           "url": "https://github.com/SonarSource/sonarqube",
-          "stars": 10944,
-          "pushedAt": "2026-08-28T22:00:03Z",
+          "stars": 10946,
+          "pushedAt": "2026-09-01T20:08:52Z",
           "featureScore": 6,
           "reasons": [
             "high-star reference",
@@ -1310,8 +1310,8 @@
         {
           "fullName": "aquasecurity/trivy",
           "url": "https://github.com/aquasecurity/trivy",
-          "stars": 37724,
-          "pushedAt": "2026-08-28T12:50:22Z",
+          "stars": 37738,
+          "pushedAt": "2026-09-01T14:51:04Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -1323,8 +1323,8 @@
         {
           "fullName": "semgrep/semgrep",
           "url": "https://github.com/semgrep/semgrep",
-          "stars": 16459,
-          "pushedAt": "2026-09-01T00:08:31Z",
+          "stars": 16468,
+          "pushedAt": "2026-09-01T19:51:53Z",
           "featureScore": 5,
           "reasons": [
             "high-star reference",
@@ -1335,7 +1335,7 @@
         {
           "fullName": "ossf/scorecard",
           "url": "https://github.com/ossf/scorecard",
-          "stars": 5662,
+          "stars": 5664,
           "pushedAt": "2026-08-31T08:24:20Z",
           "featureScore": 4,
           "reasons": [
@@ -1378,8 +1378,8 @@
         {
           "fullName": "EvanLi/Github-Ranking",
           "url": "https://github.com/EvanLi/Github-Ranking",
-          "stars": 12047,
-          "pushedAt": "2026-09-01T04:07:41Z",
+          "stars": 12051,
+          "pushedAt": "2026-09-02T04:07:48Z",
           "featureScore": 20,
           "reasons": [
             "high-star reference",
@@ -1395,7 +1395,7 @@
         {
           "fullName": "star-history/star-history",
           "url": "https://github.com/star-history/star-history",
-          "stars": 9439,
+          "stars": 9441,
           "pushedAt": "2026-08-15T13:36:09Z",
           "featureScore": 14,
           "reasons": [
@@ -1410,7 +1410,7 @@
           "fullName": "gayanvoice/top-github-users",
           "url": "https://github.com/gayanvoice/top-github-users",
           "stars": 4886,
-          "pushedAt": "2026-09-01T03:21:53Z",
+          "pushedAt": "2026-09-02T02:40:04Z",
           "featureScore": 2,
           "reasons": [
             "matches 'github'",
@@ -1422,8 +1422,8 @@
         {
           "fullName": "EvanLi/Github-Ranking",
           "url": "https://github.com/EvanLi/Github-Ranking",
-          "stars": 12047,
-          "pushedAt": "2026-09-01T04:07:41Z",
+          "stars": 12051,
+          "pushedAt": "2026-09-02T04:07:48Z",
           "featureScore": 20,
           "reasons": [
             "high-star reference",
@@ -1439,7 +1439,7 @@
         {
           "fullName": "star-history/star-history",
           "url": "https://github.com/star-history/star-history",
-          "stars": 9439,
+          "stars": 9441,
           "pushedAt": "2026-08-15T13:36:09Z",
           "featureScore": 14,
           "reasons": [
@@ -1454,7 +1454,7 @@
           "fullName": "gayanvoice/top-github-users",
           "url": "https://github.com/gayanvoice/top-github-users",
           "stars": 4886,
-          "pushedAt": "2026-09-01T03:21:53Z",
+          "pushedAt": "2026-09-02T02:40:04Z",
           "featureScore": 2,
           "reasons": [
             "matches 'github'",
@@ -1471,9 +1471,9 @@
       "owner": "google-gemini",
       "url": "https://github.com/google-gemini/gemini-cli",
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "stars": 106757,
-      "forks": 14511,
-      "openIssues": 859,
+      "stars": 106764,
+      "forks": 14516,
+      "openIssues": 856,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -1485,8 +1485,8 @@
         "mcp-server"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-09-01T01:33:41Z",
-      "updatedAt": "2026-09-01T08:29:46Z",
+      "pushedAt": "2026-09-02T01:29:09Z",
+      "updatedAt": "2026-09-02T07:30:07Z",
       "matchedFeatures": [
         "cli-command-ux"
       ]
@@ -1497,9 +1497,9 @@
       "owner": "yt-dlp",
       "url": "https://github.com/yt-dlp/yt-dlp",
       "description": "A feature-rich command-line audio/video downloader",
-      "stars": 188233,
-      "forks": 16284,
-      "openIssues": 2612,
+      "stars": 188441,
+      "forks": 16308,
+      "openIssues": 2618,
       "language": "Python",
       "topics": [
         "cli",
@@ -1512,7 +1512,7 @@
       ],
       "license": "Unlicense",
       "pushedAt": "2026-08-30T13:58:45Z",
-      "updatedAt": "2026-09-01T08:32:32Z",
+      "updatedAt": "2026-09-02T07:51:44Z",
       "matchedFeatures": [
         "cli-command-ux"
       ]
@@ -1523,7 +1523,7 @@
       "owner": "junegunn",
       "url": "https://github.com/junegunn/fzf",
       "description": ":cherry_blossom: A command-line fuzzy finder",
-      "stars": 82764,
+      "stars": 82778,
       "forks": 2860,
       "openIssues": 327,
       "language": "Go",
@@ -1541,7 +1541,7 @@
       ],
       "license": "MIT",
       "pushedAt": "2026-08-31T10:09:46Z",
-      "updatedAt": "2026-09-01T08:06:59Z",
+      "updatedAt": "2026-09-02T06:40:44Z",
       "matchedFeatures": [
         "cli-command-ux"
       ]
@@ -1552,9 +1552,9 @@
       "owner": "microsoft",
       "url": "https://github.com/microsoft/playwright",
       "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
-      "stars": 95461,
-      "forks": 6367,
-      "openIssues": 184,
+      "stars": 95515,
+      "forks": 6376,
+      "openIssues": 178,
       "language": "TypeScript",
       "topics": [
         "automation",
@@ -1574,8 +1574,8 @@
         "webkit"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-08-31T10:15:28Z",
-      "updatedAt": "2026-09-01T08:32:47Z",
+      "pushedAt": "2026-09-02T07:39:17Z",
+      "updatedAt": "2026-09-02T07:41:38Z",
       "matchedFeatures": [
         "api-test-runner"
       ]
@@ -1586,9 +1586,9 @@
       "owner": "usebruno",
       "url": "https://github.com/usebruno/bruno",
       "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
-      "stars": 46679,
-      "forks": 2828,
-      "openIssues": 1827,
+      "stars": 46702,
+      "forks": 2836,
+      "openIssues": 1825,
       "language": "JavaScript",
       "topics": [
         "api-client",
@@ -1607,8 +1607,8 @@
         "testing-tools"
       ],
       "license": "MIT",
-      "pushedAt": "2026-09-01T08:22:35Z",
-      "updatedAt": "2026-09-01T08:29:36Z",
+      "pushedAt": "2026-09-02T06:38:30Z",
+      "updatedAt": "2026-09-02T07:41:30Z",
       "matchedFeatures": [
         "api-test-runner"
       ]
@@ -1619,9 +1619,9 @@
       "owner": "robotframework",
       "url": "https://github.com/robotframework/robotframework",
       "description": "Generic automation framework for acceptance testing and RPA",
-      "stars": 11852,
+      "stars": 11857,
       "forks": 2560,
-      "openIssues": 302,
+      "openIssues": 300,
       "language": "Python",
       "topics": [
         "attd",
@@ -1634,8 +1634,8 @@
         "testing"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-08-31T22:27:07Z",
-      "updatedAt": "2026-08-31T22:27:27Z",
+      "pushedAt": "2026-09-01T15:16:23Z",
+      "updatedAt": "2026-09-02T06:18:02Z",
       "matchedFeatures": [
         "api-test-runner"
       ]
@@ -1646,9 +1646,9 @@
       "owner": "n8n-io",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 202995,
-      "forks": 60480,
-      "openIssues": 1114,
+      "stars": 203092,
+      "forks": 60500,
+      "openIssues": 1140,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -1673,8 +1673,8 @@
         "workflow-automation"
       ],
       "license": "NOASSERTION",
-      "pushedAt": "2026-09-01T08:35:01Z",
-      "updatedAt": "2026-09-01T08:27:52Z",
+      "pushedAt": "2026-09-02T07:51:43Z",
+      "updatedAt": "2026-09-02T07:51:56Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -1685,9 +1685,9 @@
       "owner": "apache",
       "url": "https://github.com/apache/airflow",
       "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
-      "stars": 46676,
-      "forks": 17714,
-      "openIssues": 2034,
+      "stars": 46691,
+      "forks": 17720,
+      "openIssues": 2081,
       "language": "Python",
       "topics": [
         "airflow",
@@ -1712,8 +1712,8 @@
         "workflow-orchestration"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-09-01T08:22:10Z",
-      "updatedAt": "2026-09-01T07:38:54Z",
+      "pushedAt": "2026-09-02T06:37:40Z",
+      "updatedAt": "2026-09-02T06:10:05Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -1724,9 +1724,9 @@
       "owner": "PrefectHQ",
       "url": "https://github.com/PrefectHQ/prefect",
       "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-      "stars": 23746,
-      "forks": 2497,
-      "openIssues": 871,
+      "stars": 23761,
+      "forks": 2499,
+      "openIssues": 869,
       "language": "Python",
       "topics": [
         "automation",
@@ -1745,8 +1745,8 @@
         "workflow-engine"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-09-01T08:20:29Z",
-      "updatedAt": "2026-09-01T08:30:04Z",
+      "pushedAt": "2026-09-02T03:14:36Z",
+      "updatedAt": "2026-09-02T06:23:40Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -1757,9 +1757,9 @@
       "owner": "grafana",
       "url": "https://github.com/grafana/grafana",
       "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
-      "stars": 76537,
-      "forks": 14680,
-      "openIssues": 3316,
+      "stars": 76556,
+      "forks": 14682,
+      "openIssues": 3337,
       "language": "TypeScript",
       "topics": [
         "alerting",
@@ -1779,8 +1779,8 @@
         "prometheus"
       ],
       "license": "AGPL-3.0",
-      "pushedAt": "2026-09-01T08:19:33Z",
-      "updatedAt": "2026-09-01T08:29:37Z",
+      "pushedAt": "2026-09-02T07:32:32Z",
+      "updatedAt": "2026-09-02T07:35:32Z",
       "matchedFeatures": [
         "evidence-diagnosis"
       ]
@@ -1791,9 +1791,9 @@
       "owner": "SigNoz",
       "url": "https://github.com/SigNoz/signoz",
       "description": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log management, infra monitoring, etc. Combined with SigNoz MCP and a native AI teammate (in SigNoz Cloud) it helps you build more resilient apps.",
-      "stars": 31987,
-      "forks": 2465,
-      "openIssues": 1558,
+      "stars": 31994,
+      "forks": 2466,
+      "openIssues": 1550,
       "language": "TypeScript",
       "topics": [
         "apm",
@@ -1818,8 +1818,8 @@
         "typescript"
       ],
       "license": "NOASSERTION",
-      "pushedAt": "2026-09-01T08:19:16Z",
-      "updatedAt": "2026-09-01T07:48:59Z",
+      "pushedAt": "2026-09-02T07:29:27Z",
+      "updatedAt": "2026-09-02T07:44:11Z",
       "matchedFeatures": [
         "evidence-diagnosis"
       ]
@@ -1831,8 +1831,8 @@
       "url": "https://github.com/apache/skywalking",
       "description": "APM, Application Performance Monitoring System",
       "stars": 24937,
-      "forks": 6631,
-      "openIssues": 38,
+      "forks": 6632,
+      "openIssues": 39,
       "language": "Java",
       "topics": [
         "apm",
@@ -1852,7 +1852,7 @@
       ],
       "license": "Apache-2.0",
       "pushedAt": "2026-08-26T06:25:56Z",
-      "updatedAt": "2026-09-01T05:51:13Z",
+      "updatedAt": "2026-09-01T14:37:00Z",
       "matchedFeatures": [
         "evidence-diagnosis"
       ]
@@ -1863,7 +1863,7 @@
       "owner": "SonarSource",
       "url": "https://github.com/SonarSource/sonarqube",
       "description": "Continuous Inspection",
-      "stars": 10944,
+      "stars": 10946,
       "forks": 2226,
       "openIssues": 0,
       "language": "Java",
@@ -1873,8 +1873,8 @@
         "static-analysis"
       ],
       "license": "LGPL-3.0",
-      "pushedAt": "2026-08-28T22:00:03Z",
-      "updatedAt": "2026-09-01T07:45:32Z",
+      "pushedAt": "2026-09-01T20:08:52Z",
+      "updatedAt": "2026-09-02T07:43:33Z",
       "matchedFeatures": [
         "quality-gates"
       ]
@@ -1885,9 +1885,9 @@
       "owner": "ossf",
       "url": "https://github.com/ossf/scorecard",
       "description": "OpenSSF Scorecard - Security health metrics for Open Source",
-      "stars": 5662,
+      "stars": 5664,
       "forks": 712,
-      "openIssues": 461,
+      "openIssues": 462,
       "language": "Go",
       "topics": [
         "openssf-scorecard",
@@ -1895,7 +1895,7 @@
       ],
       "license": "Apache-2.0",
       "pushedAt": "2026-08-31T08:24:20Z",
-      "updatedAt": "2026-09-01T05:23:02Z",
+      "updatedAt": "2026-09-01T20:49:18Z",
       "matchedFeatures": [
         "quality-gates"
       ]
@@ -1906,9 +1906,9 @@
       "owner": "aquasecurity",
       "url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-      "stars": 37724,
-      "forks": 645,
-      "openIssues": 264,
+      "stars": 37738,
+      "forks": 652,
+      "openIssues": 265,
       "language": "Go",
       "topics": [
         "containers",
@@ -1928,8 +1928,8 @@
         "vulnerability-scanners"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-08-28T12:50:22Z",
-      "updatedAt": "2026-09-01T07:43:37Z",
+      "pushedAt": "2026-09-01T14:51:04Z",
+      "updatedAt": "2026-09-02T07:21:27Z",
       "matchedFeatures": [
         "quality-gates"
       ]
@@ -1940,9 +1940,9 @@
       "owner": "semgrep",
       "url": "https://github.com/semgrep/semgrep",
       "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
-      "stars": 16459,
-      "forks": 1042,
-      "openIssues": 907,
+      "stars": 16468,
+      "forks": 1043,
+      "openIssues": 910,
       "language": "OCaml",
       "topics": [
         "c",
@@ -1959,8 +1959,8 @@
         "typescript"
       ],
       "license": "LGPL-2.1",
-      "pushedAt": "2026-09-01T00:08:31Z",
-      "updatedAt": "2026-09-01T06:43:45Z",
+      "pushedAt": "2026-09-01T19:51:53Z",
+      "updatedAt": "2026-09-02T07:35:11Z",
       "matchedFeatures": [
         "quality-gates"
       ]
@@ -1971,7 +1971,7 @@
       "owner": "EvanLi",
       "url": "https://github.com/EvanLi/Github-Ranking",
       "description": ":star:Github Ranking:star: Github stars and forks ranking list. Github Top100 stars list of different languages. Automatically update daily. | Github",
-      "stars": 12047,
+      "stars": 12051,
       "forks": 696,
       "openIssues": 32,
       "language": "Python",
@@ -1984,8 +1984,8 @@
         "stars"
       ],
       "license": "MIT",
-      "pushedAt": "2026-09-01T04:07:41Z",
-      "updatedAt": "2026-09-01T05:44:31Z",
+      "pushedAt": "2026-09-02T04:07:48Z",
+      "updatedAt": "2026-09-02T04:08:21Z",
       "matchedFeatures": [
         "github-radar-generation"
       ]
@@ -1996,8 +1996,8 @@
       "owner": "star-history",
       "url": "https://github.com/star-history/star-history",
       "description": "The de facto GitHub star history graph.",
-      "stars": 9439,
-      "forks": 370,
+      "stars": 9441,
+      "forks": 371,
       "openIssues": 10,
       "language": "TypeScript",
       "topics": [
@@ -2012,7 +2012,7 @@
       ],
       "license": "MIT",
       "pushedAt": "2026-08-15T13:36:09Z",
-      "updatedAt": "2026-09-01T07:49:37Z",
+      "updatedAt": "2026-09-02T05:47:36Z",
       "matchedFeatures": [
         "github-radar-generation"
       ]
@@ -2029,8 +2029,8 @@
       "language": "",
       "topics": [],
       "license": "",
-      "pushedAt": "2026-09-01T03:21:53Z",
-      "updatedAt": "2026-09-01T03:22:02Z",
+      "pushedAt": "2026-09-02T02:40:04Z",
+      "updatedAt": "2026-09-02T02:40:11Z",
       "matchedFeatures": [
         "github-radar-generation"
       ]
@@ -2041,9 +2041,9 @@
       "owner": "microsoft",
       "url": "https://github.com/microsoft/winget-cli",
       "description": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface).",
-      "stars": 26373,
-      "forks": 1787,
-      "openIssues": 1307,
+      "stars": 26375,
+      "forks": 1790,
+      "openIssues": 1302,
       "language": "C++",
       "topics": [
         "command-line",
@@ -2052,8 +2052,8 @@
         "winget"
       ],
       "license": "MIT",
-      "pushedAt": "2026-08-26T20:28:25Z",
-      "updatedAt": "2026-09-01T08:15:16Z",
+      "pushedAt": "2026-09-01T23:55:16Z",
+      "updatedAt": "2026-09-02T06:20:51Z",
       "matchedFeatures": [
         "cli-command-ux"
       ]
@@ -2064,7 +2064,7 @@
       "owner": "simulot",
       "url": "https://github.com/simulot/immich-go",
       "description": "An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives.",
-      "stars": 6802,
+      "stars": 6812,
       "forks": 252,
       "openIssues": 289,
       "language": "Go",
@@ -2078,7 +2078,7 @@
       ],
       "license": "AGPL-3.0",
       "pushedAt": "2026-06-25T10:34:46Z",
-      "updatedAt": "2026-09-01T08:29:12Z",
+      "updatedAt": "2026-09-02T06:02:38Z",
       "matchedFeatures": [
         "cli-command-ux"
       ]
@@ -2089,9 +2089,9 @@
       "owner": "karatelabs",
       "url": "https://github.com/karatelabs/karate",
       "description": "Test Automation Made Simple",
-      "stars": 8933,
-      "forks": 2045,
-      "openIssues": 5,
+      "stars": 8936,
+      "forks": 2044,
+      "openIssues": 6,
       "language": "Java",
       "topics": [
         "api-testing",
@@ -2112,8 +2112,8 @@
         "webdriver"
       ],
       "license": "MIT",
-      "pushedAt": "2026-09-01T08:05:54Z",
-      "updatedAt": "2026-09-01T08:13:17Z",
+      "pushedAt": "2026-09-02T05:43:56Z",
+      "updatedAt": "2026-09-02T07:45:21Z",
       "matchedFeatures": [
         "api-test-runner"
       ]
@@ -2140,8 +2140,8 @@
         "testing-tools"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-08-21T10:50:50Z",
-      "updatedAt": "2026-09-01T00:14:54Z",
+      "pushedAt": "2026-09-02T02:32:53Z",
+      "updatedAt": "2026-09-02T02:32:56Z",
       "matchedFeatures": [
         "api-test-runner"
       ]
@@ -2152,9 +2152,9 @@
       "owner": "HKUDS",
       "url": "https://github.com/HKUDS/nanobot",
       "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
-      "stars": 47594,
-      "forks": 8400,
-      "openIssues": 754,
+      "stars": 47635,
+      "forks": 8409,
+      "openIssues": 758,
       "language": "Python",
       "topics": [
         "agent-framework",
@@ -2179,8 +2179,8 @@
         "workflow-automation"
       ],
       "license": "MIT",
-      "pushedAt": "2026-09-01T08:21:18Z",
-      "updatedAt": "2026-09-01T08:29:39Z",
+      "pushedAt": "2026-09-02T07:35:52Z",
+      "updatedAt": "2026-09-02T07:50:52Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2191,9 +2191,9 @@
       "owner": "activepieces",
       "url": "https://github.com/activepieces/activepieces",
       "description": "AI Agents & MCPs & AI Workflow Automation (~400 MCP servers for AI agents) AI Automation / AI Agent with MCPs AI Workflows & AI Agents MCPs for AI Agents",
-      "stars": 24159,
-      "forks": 4120,
-      "openIssues": 510,
+      "stars": 24181,
+      "forks": 4127,
+      "openIssues": 519,
       "language": "TypeScript",
       "topics": [
         "ai-agent",
@@ -2211,8 +2211,8 @@
         "workflows"
       ],
       "license": "NOASSERTION",
-      "pushedAt": "2026-09-01T08:33:09Z",
-      "updatedAt": "2026-09-01T08:34:30Z",
+      "pushedAt": "2026-09-02T06:38:42Z",
+      "updatedAt": "2026-09-02T07:47:16Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2223,14 +2223,14 @@
       "owner": "tradesdontlie",
       "url": "https://github.com/tradesdontlie/tradingview-mcp",
       "description": "AI-assisted TradingView chart analysis connect Claude Code to your TradingView Desktop for personal workflow automation",
-      "stars": 5945,
-      "forks": 2594,
-      "openIssues": 227,
+      "stars": 5960,
+      "forks": 2597,
+      "openIssues": 229,
       "language": "JavaScript",
       "topics": [],
       "license": "NOASSERTION",
       "pushedAt": "2026-07-28T17:28:37Z",
-      "updatedAt": "2026-09-01T08:32:33Z",
+      "updatedAt": "2026-09-02T07:07:04Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2241,9 +2241,9 @@
       "owner": "pipeshub-ai",
       "url": "https://github.com/pipeshub-ai/pipeshub-ai",
       "description": "PipesHub is an open-source fully extensible AI context layer that unifies your business data for explainable enterprise search and agentic workflow automation.",
-      "stars": 3700,
-      "forks": 555,
-      "openIssues": 118,
+      "stars": 3703,
+      "forks": 558,
+      "openIssues": 125,
       "language": "Python",
       "topics": [
         "agent",
@@ -2264,8 +2264,8 @@
         "slack"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-09-01T07:44:49Z",
-      "updatedAt": "2026-09-01T06:55:46Z",
+      "pushedAt": "2026-09-02T07:51:17Z",
+      "updatedAt": "2026-09-02T07:49:32Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2276,8 +2276,8 @@
       "owner": "labring",
       "url": "https://github.com/labring/FastGPT",
       "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
-      "stars": 29526,
-      "forks": 7291,
+      "stars": 29540,
+      "forks": 7296,
       "openIssues": 175,
       "language": "TypeScript",
       "topics": [
@@ -2293,8 +2293,8 @@
         "workflow"
       ],
       "license": "NOASSERTION",
-      "pushedAt": "2026-09-01T07:56:55Z",
-      "updatedAt": "2026-09-01T07:38:52Z",
+      "pushedAt": "2026-09-02T06:13:44Z",
+      "updatedAt": "2026-09-02T07:14:58Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2305,9 +2305,9 @@
       "owner": "dapr",
       "url": "https://github.com/dapr/dapr",
       "description": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.",
-      "stars": 26055,
-      "forks": 2140,
-      "openIssues": 445,
+      "stars": 26057,
+      "forks": 2141,
+      "openIssues": 443,
       "language": "Go",
       "topics": [
         "containers",
@@ -2321,8 +2321,8 @@
         "state-management"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-08-28T20:57:00Z",
-      "updatedAt": "2026-08-31T22:54:23Z",
+      "pushedAt": "2026-09-01T22:16:21Z",
+      "updatedAt": "2026-09-02T03:40:50Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2333,9 +2333,9 @@
       "owner": "inngest",
       "url": "https://github.com/inngest/inngest",
       "description": "The leading workflow orchestration platform. Run stateful step functions and AI workflows on serverless, servers, or the edge.",
-      "stars": 5796,
+      "stars": 5801,
       "forks": 344,
-      "openIssues": 231,
+      "openIssues": 236,
       "language": "Go",
       "topics": [
         "cli",
@@ -2348,8 +2348,8 @@
         "workflows"
       ],
       "license": "NOASSERTION",
-      "pushedAt": "2026-08-31T22:05:34Z",
-      "updatedAt": "2026-08-31T21:37:16Z",
+      "pushedAt": "2026-09-02T07:46:19Z",
+      "updatedAt": "2026-09-02T06:54:33Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2360,8 +2360,8 @@
       "owner": "ageerle",
       "url": "https://github.com/ageerle/ruoyi-ai",
       "description": "An enterprise AI development framework for building AI agents. It provides unified management of multi-provider LLMs, secure enterprise knowledge bases with high-precision retrieval, visual workflow orchestration and multi-agent coordination. Compatible with mainstream Agent Skill standards, it enables developers to efficiently build production-gra",
-      "stars": 5674,
-      "forks": 1398,
+      "stars": 5681,
+      "forks": 1399,
       "openIssues": 8,
       "language": "Java",
       "topics": [
@@ -2373,7 +2373,7 @@
       ],
       "license": "MIT",
       "pushedAt": "2026-08-16T12:58:53Z",
-      "updatedAt": "2026-09-01T07:22:33Z",
+      "updatedAt": "2026-09-02T07:23:21Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2386,7 +2386,7 @@
       "description": "Maestro: Netflixs Workflow Orchestrator",
       "stars": 3831,
       "forks": 312,
-      "openIssues": 57,
+      "openIssues": 58,
       "language": "Java",
       "topics": [
         "agentic-workflow",
@@ -2411,7 +2411,7 @@
         "workflow-orchestration"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-08-26T17:54:39Z",
+      "pushedAt": "2026-09-02T06:58:32Z",
       "updatedAt": "2026-08-31T22:15:51Z",
       "matchedFeatures": [
         "workflow-orchestration"
@@ -2423,9 +2423,9 @@
       "owner": "dagucloud",
       "url": "https://github.com/dagucloud/dagu",
       "description": "Self-hostable workflow orchestrator for teams whose main work isn't orchestration. Declarative YAML over your scripts, SSH commands, containers, etc; keep workflows separate from business logic. One binary, no database, runs on limited H/W resources. Alternative to Airflow / Cron / Job Scheduler.",
-      "stars": 3829,
+      "stars": 3831,
       "forks": 320,
-      "openIssues": 72,
+      "openIssues": 74,
       "language": "Go",
       "topics": [
         "agentic-workflows",
@@ -2450,8 +2450,8 @@
         "workflow-scheduler"
       ],
       "license": "GPL-3.0",
-      "pushedAt": "2026-09-01T07:42:08Z",
-      "updatedAt": "2026-09-01T07:44:59Z",
+      "pushedAt": "2026-09-02T07:38:05Z",
+      "updatedAt": "2026-09-02T07:40:10Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2462,14 +2462,14 @@
       "owner": "terramate-io",
       "url": "https://github.com/terramate-io/terramate",
       "description": "Open-source Infrastructure as Code (IaC) orchestration platform: GitOps workflows, orchestration, code generation, observability, drift detection, asset management, policies, Slack notifications, and more. Integrates with Terraform, OpenTofu, Terragrunt, Kubernetes, GitHub Actions, GitLab CI/CD, BitBucket Pipelines, and any other CI/CD platform.",
-      "stars": 3621,
+      "stars": 3623,
       "forks": 125,
-      "openIssues": 104,
+      "openIssues": 102,
       "language": "Go",
       "topics": [],
       "license": "MPL-2.0",
-      "pushedAt": "2026-08-31T14:30:11Z",
-      "updatedAt": "2026-09-01T06:50:34Z",
+      "pushedAt": "2026-09-01T14:31:21Z",
+      "updatedAt": "2026-09-01T18:47:14Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2480,8 +2480,8 @@
       "owner": "foryourhealth111-pixel",
       "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
       "description": "Intelligent Skill routing and workflow orchestration for AI agents +21.12 pp reward, 29.6% tokens on SkillsBench with DeepSeekV4Flash-VE.",
-      "stars": 3110,
-      "forks": 258,
+      "stars": 3125,
+      "forks": 260,
       "openIssues": 39,
       "language": "Python",
       "topics": [
@@ -2508,7 +2508,7 @@
       ],
       "license": "Apache-2.0",
       "pushedAt": "2026-08-31T13:52:09Z",
-      "updatedAt": "2026-09-01T08:18:28Z",
+      "updatedAt": "2026-09-02T05:18:27Z",
       "matchedFeatures": [
         "workflow-orchestration"
       ]
@@ -2519,9 +2519,9 @@
       "owner": "img2threejs",
       "url": "https://github.com/img2threejs/img2threejs",
       "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-      "stars": 14802,
-      "forks": 1205,
-      "openIssues": 77,
+      "stars": 14948,
+      "forks": 1218,
+      "openIssues": 78,
       "language": "Python",
       "topics": [
         "3d",
@@ -2536,8 +2536,8 @@
         "webgl"
       ],
       "license": "Apache-2.0",
-      "pushedAt": "2026-08-31T09:28:46Z",
-      "updatedAt": "2026-09-01T08:31:57Z",
+      "pushedAt": "2026-09-02T07:34:35Z",
+      "updatedAt": "2026-09-02T07:43:06Z",
       "matchedFeatures": [
         "quality-gates"
       ]
