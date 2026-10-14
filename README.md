@@ -2,6 +2,13 @@
 
 Feature-first GitHub reference radar for AgentTestBench CLI capability research.
 
+[![CI](https://github.com/ztcshen/github-feature-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/ztcshen/github-feature-radar/actions/workflows/ci.yml)
+
+Download the CLI archive from [Releases](https://github.com/ztcshen/github-feature-radar/releases/latest)
+and install it with `npm install --global ./github-feature-radar-0.1.1.tgz`.
+Node.js 20 or newer is required. The archive includes the feature inventory at
+the release commit; run `github-feature-radar refresh` for current references.
+
 The goal is not to build another generic "top repositories" list. The goal is
 to ask a feature question first, then return mature, active, high-star projects
 that are useful references for that feature.
