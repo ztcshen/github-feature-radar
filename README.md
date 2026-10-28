@@ -5,7 +5,7 @@ Feature-first GitHub reference radar for AgentTestBench CLI capability research.
 [![CI](https://github.com/ztcshen/github-feature-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/ztcshen/github-feature-radar/actions/workflows/ci.yml)
 
 Download the CLI archive from [Releases](https://github.com/ztcshen/github-feature-radar/releases/latest)
-and install it with `npm install --global ./github-feature-radar-0.1.1.tgz`.
+and install it with `npm install --global ./github-feature-radar-0.2.0.tgz`.
 Node.js 20 or newer is required. The archive includes the feature inventory at
 the release commit; run `github-feature-radar refresh` for current references.
 
@@ -20,6 +20,28 @@ that are useful references for that feature.
 - Exclusions: archived repositories and forks
 - Primary lookup: feature id, feature alias, or feature text
 - Secondary store: de-duplicated project ledger
+
+## CLI safety and writable data
+
+Run `github-feature-radar --help` to inspect commands and `--version` to inspect the
+installed version. No arguments show help. Refreshing requires the explicit
+`refresh` command; help, version, and invalid arguments never make network requests
+or change inventory files.
+
+Use one writable data directory when running an installed package:
+
+```sh
+github-feature-radar refresh --data-dir ./radar-data
+github-feature-radar lookup --data-dir ./radar-data --feature "release gate"
+github-feature-radar status --data-dir ./radar-data --max-age-hours 72
+```
+
+Feature definitions default to the bundled seeds. `--features` overrides them.
+Explicit `--out`, `--index`, and `--markdown` paths override the matching data-directory
+paths regardless of option order. Existing repository workflows keep their bundled
+`data/` defaults. Unknown, duplicate, missing, incompatible, and invalid numeric
+arguments exit with code 2 before reading data or accessing GitHub. Gate/runtime
+failures retain exit code 1, and successful commands exit with code 0.
 
 ## Usage
 

@@ -3,6 +3,8 @@ import { readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { CliUsageError, HELP, parseCliOptions } from "./cli-options.mjs";
+
 import { fetchGitHubRepository, fetchGitHubSearch } from "./github-client.mjs";
 import {
   auditFeatureInventory,
@@ -15,7 +17,6 @@ import {
   buildFeatureTermsReport,
   buildSeedSearchResults,
   dateOnly,
-  defaultPolicy,
   findFeatureInSearchIndex,
   findFeatureMatches,
   monthsBefore,
@@ -27,56 +28,6 @@ import {
 } from "./feature-radar.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-
-const defaultFeaturesPath = resolve(root, "data/features.json");
-const defaultJsonPath = resolve(root, "data/feature-radar.json");
-const defaultIndexPath = resolve(root, "data/feature-index.json");
-const defaultMarkdownPath = resolve(root, "data/feature-radar.md");
-
-function parseArgs(argv) {
-  const options = {
-    command: "refresh",
-    featuresPath: defaultFeaturesPath,
-    jsonPath: defaultJsonPath,
-    indexPath: defaultIndexPath,
-    markdownPath: defaultMarkdownPath,
-    minStars: defaultPolicy.minStars,
-    months: defaultPolicy.months,
-    limit: 12,
-    minReferences: 3,
-    maxAgeHours: 72,
-    tokenEnv: "GITHUB_TOKEN",
-  };
-
-  const args = [...argv];
-  if (["refresh", "lookup", "features", "terms", "suggest", "search", "audit", "coverage", "status", "index"].includes(args[0])) options.command = args.shift();
-
-  for (let index = 0; index < args.length; index += 1) {
-    const arg = args[index];
-    const next = () => args[++index];
-    if (arg === "--features") options.featuresPath = resolve(process.cwd(), next());
-    else if (arg === "--out") options.jsonPath = resolve(process.cwd(), next());
-    else if (arg === "--index") options.indexPath = resolve(process.cwd(), next());
-    else if (arg === "--markdown") options.markdownPath = resolve(process.cwd(), next());
-    else if (arg === "--no-markdown") options.markdownPath = "";
-    else if (arg === "--fixture") options.fixturePath = resolve(process.cwd(), next());
-    else if (arg === "--feature") options.featureQuery = next();
-    else if (arg === "--query") options.query = next();
-    else if (arg === "--filter") options.filter = next();
-    else if (arg === "--limit") options.limit = Number(next());
-    else if (arg === "--min-references") options.minReferences = Number(next());
-    else if (arg === "--max-age-hours") options.maxAgeHours = Number(next());
-    else if (arg === "--min-stars") options.minStars = Number(next());
-    else if (arg === "--months") options.months = Number(next());
-    else if (arg === "--token-env") options.tokenEnv = next();
-    else if (arg === "--seed-only") options.seedOnly = true;
-    else if (arg === "--no-index") options.noIndex = true;
-    else if (arg === "--strict-search") options.strictSearch = true;
-    else throw new Error(`Unknown argument: ${arg}`);
-  }
-
-  return options;
-}
 
 async function loadFeatures(path) {
   const payload = JSON.parse(await readFile(path, "utf8"));
@@ -274,7 +225,12 @@ async function writeIndex(options) {
 }
 
 async function main() {
-  const options = parseArgs(process.argv.slice(2));
+  const options = parseCliOptions(process.argv.slice(2), { root });
+  if (options.command === "help") { process.stdout.write(HELP); return; }
+  if (options.command === "version") {
+    const pkg = JSON.parse(await readFile(resolve(root, "package.json"), "utf8"));
+    process.stdout.write(`${pkg.version}\n`); return;
+  }
   if (options.command === "lookup") return lookup(options);
   if (options.command === "features") return listFeatures(options);
   if (options.command === "terms") return terms(options);
@@ -289,5 +245,5 @@ async function main() {
 
 main().catch((error) => {
   console.error(error.message);
-  process.exitCode = 1;
+  process.exitCode = error instanceof CliUsageError ? 2 : 1;
 });

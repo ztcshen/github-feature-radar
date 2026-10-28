@@ -1,6 +1,6 @@
 {
   "name": "github-feature-radar",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "description": "Feature-first GitHub reference radar for CLI capability research.",
   "license": "Apache-2.0",
@@ -9,7 +9,14 @@
     "type": "git",
     "url": "https://github.com/ztcshen/github-feature-radar.git"
   },
-  "files": ["src", "data", "docs", "README.md", "CHANGELOG.md", "LICENSE"],
+  "files": [
+    "src",
+    "data",
+    "docs",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
   "bin": {
     "github-feature-radar": "src/cli.mjs"
   },
